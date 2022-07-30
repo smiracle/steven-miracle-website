@@ -1,0 +1,109 @@
+
+[
+    {
+        "type": "webapp",
+        "title": "E-Tickets",
+        "year": "2022",
+        "description": "E-commerce site for movies",
+        "tools": [".Net Core", "SQL", "Azure"]
+    },
+    {
+        "type": "webapp",
+        "title": "Password API",
+        "year": "2022",
+        "description": "Azure hosted App + API + DB",
+        "tools": [".Net Core", "SQL", "Azure", "Heroku"]
+    },
+    {
+        "type": "webapp",
+        "title": "D&D Spell Search",
+        "year": "2022",
+        "description": "Simple data search app, created in one afternoon",
+        "tools": ["React"]
+    },
+    {
+        "type": "webapp",
+        "title": "Todo List",
+        "year": "2022",
+        "description": "Simple data search app, created in one afternoon",
+        "tools": ["Express JS", "MongoDB", "Heroku"]
+    },
+    {
+        "type": "webapp",
+        "title": "Workflow Ticket App",
+        "year": "2022",
+        "description": "Workflow ticketing system front-end",
+        "tools": ["React", "Heroku"]
+    },
+    {
+        "type": "game",
+        "title": "One Second",
+        "year": "2019",
+        "description": "Platformer created in 36 hours",
+        "imgUrl": "../project-images/OneSecond.png",
+        "tools": ["Unity", "Gimp"]
+    },
+    {
+        "type": "game",
+        "title": "Warhound",
+        "year": "2018",
+        "description": "Top-down 2D shooter",
+        "imgUrl": "../project-images/Warhound.png",
+        "tools": ["Unity", "Gimp", "PixiTracker", "Bfxr"]
+    },
+    {
+        "type": "game",
+        "title": "Sauron Bowling",
+        "year": "2017",
+        "description": "Bowling & dark lord simulation",
+        "imgUrl": "../project-images/Sauron.png"
+    },
+    {
+        "type": "game",
+        "title": "Rettis",
+        "year": "2017",
+        "description": "Simple tetris clone",
+        "imgUrl": "../project-images/Rettis.png",
+        "tools": ["Unity", "Gimp", "Bfxr"]
+    },
+    {
+        "type": "game",
+        "title": "Block breaker",
+        "year": "2016",
+        "description": "Breakout clone",
+        "imgUrl": "../project-images/BlockBreaker.png",
+        "tools": ["Unity"]
+    },
+    {
+        "type": "game",
+        "title": "Dragonstrike",
+        "year": "2016",
+        "description": "Tilemap generation + RPG",
+        "imgUrl": "../project-images/Dragonstrike.png",
+        "tools": ["Unity", "Photoshop", "Gimp"]
+    },
+    {
+        "type": "more",
+        "title": "Lunk",
+        "year": "2017",
+        "description": "An experiment in multiplayer",
+        "imgUrl": "../project-images/Lunk.png",
+        "tools": ["Unity", "Photon"]
+    },
+    {
+        "type": "more",
+        "title": "Fractal",
+        "year": "2015",
+        "description": "A procedural object experiment",
+        "imgUrl": "../project-images/Fractal.png",
+        "tools": ["Unity"]
+    },
+    {
+        "type": "more",
+        "title": "Maze",
+        "year": "2015",
+        "description": "A procedurally generated 3D maze",
+        "imgUrl": "../project-images/Maze.png",
+        "tools": ["Unity"]
+    }    
+]
