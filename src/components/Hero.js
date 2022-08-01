@@ -115,57 +115,47 @@ const Hero = () => {
     <section className="banner" id="home">
       <Row className="align-items-center">
         <Col xs={12} md={12} xl={12}>
-          {/* <Col xs={12} md={6} xl={7}> */}
-          <TrackVisibility>
-            {({ isVisible }) => (
-              <div
-                className={isVisible ? "animate__animated animate__fadeIn" : ""}
-              >
-                <span className="tagline">Hi, my name is</span>
-                <h1>{`Steven Miracle.`}</h1>
-                <h2 className="txt-rotate-header">
-                  {`I'm a`}{" "}
-                  <span
-                    className="txt-rotate"
-                    dataPeriod="1000"
-                    data-rotate={toRotate}
-                  >
-                    <span className="wrap">{text}</span>
-                  </span>
-                  {" Developer."}
-                </h2>
-                <p>
-                  I specialize in developing enterprise scale software and
-                  microservices. I'm currently looking for the next employment
-                  opportunity.
-                </p>
-                <button
-                  className="hero"
-                  onClick={(e) =>
-                    jokeClickNum === jokes.length
-                      ? setJokeClickNum(0)
-                      : setJokeClickNum(jokeClickNum + 1)
-                  }
-                >
-                  {jokes[jokeClickNum]} <ArrowRightCircle size={25} />
-                </button>
-              </div>
-            )}
-          </TrackVisibility>
-        </Col>
-        {/* <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => (
+          <TrackVisibility once={true} partialVisibility>
+            {({ isVisible }) => {
+              return (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
+                    isVisible ? "animate__animated animate__fadeInDown" : ""
                   }
                 >
-                  <img src={headerImg} alt="Header Img" />
+                  <span className="tagline">Hi, my name is</span>
+                  <h1>{`Steven Miracle.`}</h1>
+                  <h2 className="txt-rotate-header">
+                    {`I'm a`}{" "}
+                    <span
+                      className="txt-rotate"
+                      dataPeriod="1000"
+                      data-rotate={toRotate}
+                    >
+                      <span className="wrap">{text}</span>
+                    </span>
+                    {" Developer."}
+                  </h2>
+                  <p>
+                    I specialize in developing enterprise scale software and
+                    microservices. I'm currently looking for the next employment
+                    opportunity.
+                  </p>
+                  <button
+                    className="hero"
+                    onClick={(e) =>
+                      jokeClickNum === jokes.length
+                        ? setJokeClickNum(0)
+                        : setJokeClickNum(jokeClickNum + 1)
+                    }
+                  >
+                    {jokes[jokeClickNum]} <ArrowRightCircle size={25} />
+                  </button>
                 </div>
-              )}
-            </TrackVisibility>
-          </Col> */}
+              );
+            }}
+          </TrackVisibility>
+        </Col>
       </Row>
     </section>
   );
