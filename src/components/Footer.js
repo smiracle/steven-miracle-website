@@ -1,11 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/img/SLogo.png";
-import navIcon1 from "../assets/img/linkedin.svg";
-import navIcon2 from "../assets/img/bitbucket-icon.svg";
-import navIcon3 from "../assets/img/itchio-textless-black.svg";
+import linkedInIcon from "../assets/img/svg-linkedin.svg";
+import bitbucketIcon from "../assets/img/svg-bitbucket-white.svg";
+import itchIcon from "../assets/img/svg-itch-white.svg";
 
 function Footer() {
-  const navIcons = [navIcon1, navIcon2, navIcon3];
+  const navIcons = [linkedInIcon, bitbucketIcon, itchIcon];
   const socialUrls = [
     "https://www.linkedin.com/in/steven-miracle/",
     "https://bitbucket.org/smiracle/",
@@ -17,7 +16,6 @@ function Footer() {
       <Container>
         <Row className="align-items-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
             <div className="social-icon">
               {navIcons.map((icon, index) => {
                 return (

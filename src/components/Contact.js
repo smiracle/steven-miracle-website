@@ -1,11 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 const Contact = () => {
   return (
-    <section className="contact" id="contact">
+    <section className="contact">
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={12}>
@@ -16,7 +15,7 @@ const Contact = () => {
                     isVisible ? "animate__animated animate__fadeIn" : ""
                   }
                 >
-                  <h2>Get In Touch</h2>
+                  <h3 id="contact">Get In Touch</h3>
                   <p>
                     I’m currently looking for new opportunities and my inbox is
                     always open. Whether you have a question or just want to say

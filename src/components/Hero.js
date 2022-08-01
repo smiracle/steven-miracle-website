@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import { Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -14,11 +13,12 @@ const Hero = () => {
   const toRotate = ["Front-End", "Back-End", "Full Stack", "Web", "Game"];
   const period = 2000;
   const jokes = [
-    "I'm a button that you can click!",
+    "And I'm a button that you can click!",
     "Oh boy. You really shouldn't have done that.",
-    "I'm going to have to report this click behavior.",
+    "I'm going to have to report this.",
+    "This is erroneous click behavior.",
     "This isn't good.",
-    "Don't want this to get any worse, so you may not want to click again.",
+    "Don't want this to get any worse, so you may not want to click me again.",
     "It might be a good idea to stop clicking me.",
     "You should probably stop...",
     "Please stop.",
@@ -27,8 +27,8 @@ const Hero = () => {
     "You can stop at any time.",
     "Did I mention that you can stop clicking me?",
     "Hey, I've got an idea.",
-    "You stop clicking me. And I won't tell anyone it's broken.",
-    "We can all pretend that it's fine.",
+    "You stop clicking me. And I won't tell anyone that I'm broken.",
+    "We can all pretend that everything is fine.",
     "No problemo!",
     "Case closed!",
     "Crisis averted!",
@@ -38,7 +38,7 @@ const Hero = () => {
     "...Now.",
     "Now.",
     "Right now.",
-    "Whew, alright.",
+    "Whew.",
     "That clearly didn't deter you, did it?",
     "Well how about this...",
     "",
@@ -52,7 +52,7 @@ const Hero = () => {
     "Just a simple button.",
     "Totally boring and uninteresting.",
     "Are you sure you want to keep going with this?",
-    "There are other things to do, after all.",
+    "There are other things one could do with their time.",
     "Like drinking a glass of water.",
     "Or painting a self-portrait.",
     "Or gazing longingly at the sky.",
@@ -63,7 +63,7 @@ const Hero = () => {
     "A really big moose.",
     "Have you ever seen a moose before?",
     "Me neither.",
-    "...Except for that one time!",
+    "Except for that one time!",
     "It had lots of fur.",
     "And a big tail.",
     "And webbed feet.",

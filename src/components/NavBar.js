@@ -1,94 +1,107 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import pdf from "../StevenMiracleResume.pdf";
-import logo from "../assets/img/SLogo.png";
-import navIcon1 from "../assets/img/linkedin.svg";
-import navIcon2 from "../assets/img/bitbucket-icon.svg";
-import navIcon3 from "../assets/img/itchio-textless-black.svg";
+import logo from "../assets/img/s-logo.png";
+import linkedInIcon from "../assets/img/svg-linkedin.svg";
+import bitbucketIcon from "../assets/img/svg-bitbucket-white.svg";
+import itchIcon from "../assets/img/svg-itch-white.svg";
+import hamburgerIcon from "../assets/img/svg-hamburger.svg";
+import closeIcon from "../assets/img/svg-close.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
+import UseOnClickOutside from "./UseOnClickOutside";
 
 function NavBar() {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
-  const [scrolled, setScrolled] = useState(false);
-  const navIcons = [navIcon1, navIcon2, navIcon3];
+  const [isScrolled, setIsScrolled] = useState(false);
+  const navIcons = [linkedInIcon, bitbucketIcon, itchIcon];
   const socialUrls = [
     "https://www.linkedin.com/in/steven-miracle/",
     "https://bitbucket.org/smiracle/",
     "https://stemir.itch.io/",
   ];
+  const handleHamburgerClick = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
 
   useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 50) {
-        setScrolled(true);
+        setIsScrolled(true);
       } else {
-        setScrolled(false);
+        setIsScrolled(false);
       }
     };
     window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
+    window.addEventListener("resize", onResize);
+    return () => {
+      window.removeEventListener("resize", onResize);
+      window.removeEventListener("scroll", onScroll);
+    };
   }, []);
+  const wrapperRef = useRef();
+  UseOnClickOutside(wrapperRef, () => setIsSidebarOpen(false));
 
   const onUpdateActiveLink = (value) => {
     setActiveLink(value);
+    setIsSidebarOpen(false);
   };
+
+  const onResize = (e) => {
+    if (e.currentTarget.innerWidth > 849) {
+      setIsSidebarOpen(false);
+    }
+  };
+
+  const navLinks = [
+    {
+      name: "About",
+      url: "/#about",
+    },
+    {
+      name: "Experience",
+      url: "/#experience",
+    },
+    {
+      name: "Projects",
+      url: "/#projects",
+    },
+    {
+      name: "Contact",
+      url: "/#contact",
+    },
+  ];
 
   return (
     <Router>
-      <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
-        <div style={{ display: "flex", maxWidth: "1000px" }}>
-          <Navbar.Brand href="#home">
-            <img src={logo} alt="Logo" className="logo" />
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
-          <Navbar.Collapse id="basic-navbar-nav" className="navbar-margin">
-            <Nav className="me-auto">
-              <Nav.Link
-                href="#home"
-                className={
-                  activeLink === "home" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("home")}
-              >
-                Home
-              </Nav.Link>
-              <Nav.Link
-                href="#about-me"
-                className={
-                  activeLink === "skills" ? "active navbar-link" : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("skills")}
-              >
-                About
-              </Nav.Link>
-              <Nav.Link
-                href="#projects"
-                className={
-                  activeLink === "projects"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("projects")}
-              >
-                Projects
-              </Nav.Link>
-
-              <Nav.Link
-                href="#contact"
-                className={
-                  activeLink === "contact"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("contact")}
-              >
-                Contact
-              </Nav.Link>
-            </Nav>
-            <span className="navbar-text">
+      <div>
+        <header className={isScrolled ? "nav-header scrolled" : "nav-header"}>
+          <nav className="navbar-constraint">
+            <a href="#home">
+              <div className="navbar-logo">
+                <img src={logo} alt="Logo" />
+              </div>
+            </a>
+            <div className="navbar-links">
+              <ol>
+                {navLinks.map((navLink) => {
+                  return (
+                    <li>
+                      <a
+                        href={navLink.url}
+                        className={
+                          activeLink === navLink.name
+                            ? "active navbar-link"
+                            : "navbar-link"
+                        }
+                        onClick={() => onUpdateActiveLink(navLink.name)}
+                      >
+                        {navLink.name}
+                      </a>
+                    </li>
+                  );
+                })}
+              </ol>
               <div className="social-icon">
                 {navIcons.map((icon, index) => {
                   return (
@@ -98,15 +111,64 @@ function NavBar() {
                   );
                 })}
               </div>{" "}
-            </span>
-            <HashLink to={pdf} target="_blank" className="navbar-text">
-              <button className="vvd navbar-resume-button">
-                <span>Resume</span>
+              <HashLink to={pdf} target="_blank" className="navbar-text">
+                <button className="navbar-resume-button">
+                  <span>Resume</span>
+                </button>
+              </HashLink>
+            </div>
+
+            <div ref={wrapperRef}>
+              <button className="navbar-toggler" onClick={handleHamburgerClick}>
+                <img
+                  src={isSidebarOpen ? closeIcon : hamburgerIcon}
+                  className="hamburger"
+                  alt="hamburger"
+                />
               </button>
-            </HashLink>
-          </Navbar.Collapse>
-        </div>
-      </Navbar>
+
+              <aside
+                className={isSidebarOpen ? "nav-sidebar" : "nav-sidebar-hide"}
+              >
+                <nav className="nav-sidebar-inner">
+                  <ol>
+                    {navLinks.map((navLink) => {
+                      return (
+                        <li>
+                          <a
+                            href={navLink.url}
+                            className={
+                              activeLink === navLink.name
+                                ? "active navbar-link"
+                                : "navbar-link"
+                            }
+                            onClick={() => onUpdateActiveLink(navLink.name)}
+                          >
+                            {navLink.name}
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ol>
+                  <HashLink to={pdf} target="_blank" className="navbar-text">
+                    <button
+                      className="navbar-resume-button"
+                      style={{ padding: "16px 32px", marginRight: "24px" }}
+                    >
+                      <span
+                        className="sidebar-resume-link"
+                        style={{ fontSize: "20px" }}
+                      >
+                        Resume
+                      </span>
+                    </button>
+                  </HashLink>
+                </nav>
+              </aside>
+            </div>
+          </nav>
+        </header>
+      </div>
     </Router>
   );
 }

@@ -1,7 +1,6 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projectData from "../data/projects.json";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 import _ from "lodash";
@@ -36,7 +35,7 @@ const Projects = () => {
   );
 
   return (
-    <section className="project" id="projects">
+    <section className="project">
       <Row>
         <Col>
           <TrackVisibility>
@@ -44,7 +43,7 @@ const Projects = () => {
               <div
                 className={isVisible ? "animate__animated animate__fadeIn" : ""}
               >
-                <h3>Projects</h3>
+                <h3 id="projects">Projects</h3>
                 <p>
                   Here's some of the projects I put together in my spare time to
                   help demonstrate what I'm capable of and what my interests

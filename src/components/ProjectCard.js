@@ -1,46 +1,91 @@
-import { Col } from "react-bootstrap";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "animate.css";
-import bitbucketIcon from "../assets/img/svg-bitbucket.svg";
+import { ProjectLink } from "./ProjectLink.js";
+import gitIcon from "../assets/img/svg-git.svg";
 import youtubeIcon from "../assets/img/svg-youtube.svg";
 import externalIcon from "../assets/img/svg-external.svg";
+import itchIcon from "../assets/img/svg-itch.svg";
 
-export const ProjectCard = ({ title, year, description, imgUrl, tools }) => {
+export const ProjectCard = ({
+  title,
+  year,
+  description,
+  imgUrl,
+  tools,
+  externalUrl,
+  repoUrl,
+  itchUrl,
+  youtubeUrl,
+}) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  function getClassName() {
+    let className = "proj-card-inner animate__animated";
+    className += isHovered ? " animate__pushup" : " animate__pushdown";
+    return className;
+  }
+
   return (
-    <li
-      className={
-        isHovered
-          ? "proj-card-inner animate__animated animate__pushup"
-          : "proj-card-inner animate__animated animate__pushdown"
-      }
-      onMouseEnter={(e) => setIsHovered(true)}
-      onMouseLeave={(e) => setIsHovered(false)}
+    <a
+      href={externalUrl == null ? itchUrl : externalUrl}
+      className="proj-card-outer-link"
     >
-      <div
-        className={"proj-card"}
-        style={{ backgroundImage: "url(" + imgUrl + ")" }}
+      <li
+        className={getClassName()}
+        onMouseEnter={(e) => setIsHovered(true)}
+        onMouseLeave={(e) => setIsHovered(false)}
       >
-        <div className="proj-top">
-          <div className="proj-links">
-            <img
-              src={bitbucketIcon}
-              style={{ width: "20px", height: "20px" }}
-            />
-            <img src={youtubeIcon} style={{ width: "20px", height: "20px" }} />
-            <img src={externalIcon} style={{ width: "20px", height: "20px" }} />
+        <div
+          className={"proj-card"}
+          style={{ backgroundImage: "url(" + imgUrl + ")" }}
+        >
+          <div className="proj-top">
+            <div className="proj-links">
+              {externalUrl && (
+                <ProjectLink
+                  src={externalIcon}
+                  url={externalUrl}
+                  alt="external link"
+                />
+              )}
+              {itchUrl && (
+                <ProjectLink src={itchIcon} url={itchUrl} alt="itch.io link" />
+              )}
+              {repoUrl && (
+                <ProjectLink
+                  src={gitIcon}
+                  url={repoUrl}
+                  alt="code repository link"
+                  data-id="git-link"
+                  onMouseEnter={(e) => {
+                    console.log("enter");
+                  }}
+                />
+              )}
+              {youtubeUrl && (
+                <ProjectLink
+                  src={youtubeIcon}
+                  url={youtubeUrl}
+                  alt="youtube link"
+                />
+              )}
+            </div>
           </div>
+          <h5 className={isHovered ? "proj-card-orange" : "proj-card-white"}>
+            {title}
+          </h5>
+          <div className="proj-year-and-desc">
+            <h6>({year})</h6>
+
+            <h6>{description}</h6>
+          </div>
+          <ul className="project-tech-list">
+            {tools.map((tool) => {
+              return <li>{tool}</li>;
+            })}
+          </ul>
         </div>
-        <h5>{title}</h5>
-        <h5>({year})</h5>
-        <span>{description}</span>
-        <ul className="project-tech-list">
-          {tools.map((tool) => {
-            return <li>{tool}</li>;
-          })}
-        </ul>
-      </div>
-    </li>
+      </li>
+    </a>
   );
 };

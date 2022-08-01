@@ -4,20 +4,15 @@ import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Tab from "react-bootstrap/Tab";
 import experienceData from "../data/experience.json";
-import { useState, useEffect } from "react";
 
 const Experience = () => {
-  useEffect(() => {
-    console.log(experienceData[0].company);
-  });
-
   return (
-    <section className="experience" id="experience">
+    <section className="experience">
       <Row>
         <div className="experience-bx wow zoomIn">
           <Row>
             <div className="col-12">
-              <h3>Where I've Worked</h3>
+              <h3 id="experience">Where I've Worked</h3>
             </div>
           </Row>
           <Row>
@@ -27,7 +22,7 @@ const Experience = () => {
               defaultActiveKey="index0"
             >
               <Row>
-                <Col sm={3}>
+                <Col sm={3} className="experience-tabs-column">
                   <Nav variant="pills" className="flex-column">
                     {experienceData.map((data, index) => {
                       return (

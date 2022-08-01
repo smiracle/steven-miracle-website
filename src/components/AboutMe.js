@@ -4,12 +4,12 @@ import me from "../assets/img/me.jpg";
 
 const AboutMe = () => {
   return (
-    <section className="skill" id="about-me">
+    <section className="about" id="home">
       <Row>
-        <div className="skill-bx wow zoomIn">
+        <div className="about-bx wow zoomIn">
           <Row>
             <div className="col-12">
-              <h3>About Me</h3>
+              <h3 id="about">About Me</h3>
             </div>
           </Row>
           <div className="row">
@@ -18,8 +18,8 @@ const AboutMe = () => {
                 Hello! My name is Steven and I enjoy creating web applications.
                 My interest in programming started back in 2002 when I tried
                 tinkering with code in BioWare's Aurora engine — turns out
-                moving characters around a map is a good way to learn about
-                object oriented programming!
+                moving objects around a map is a good way to learn about object
+                oriented programming!
               </p>
               <p>
                 Fast-forward to today, and I’ve had the privilege of working on
@@ -29,7 +29,7 @@ const AboutMe = () => {
                 healthcare application at a start-up, documentation at an Apple
                 subsidiary, I even led a training course at a network hardware
                 company. My main focus now is expanding and strengthening my
-                skillset when it comes to tools that I love working with.
+                skill set when it comes to tools that I love working with.
               </p>
               <p>
                 I also love building my own games and submitting them to various
@@ -38,7 +38,7 @@ const AboutMe = () => {
               <p>
                 Here are a few technologies I’ve been working with recently:
               </p>
-              <ul className="skills-list">
+              <ul className="about-list">
                 <li>.NET Core and C#</li>
                 <li>React</li>
                 <li>TypeScript</li>
@@ -50,7 +50,7 @@ const AboutMe = () => {
               </ul>
             </div>
 
-            <div className="col-lg-4">
+            <div className="col-lg-4 me-column">
               <img src={me} alt="me" className="img-me" />
             </div>
           </div>
