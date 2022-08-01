@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c6822761.css",
+    "main.js": "/static/js/main.ffcc6064.js",
+    "static/media/StevenMiracleResume.pdf": "/static/media/StevenMiracleResume.db7b46824cde03549a64.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/me.jpg": "/static/media/me.69ffde8d0a07e5b052f9.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/svg-hamburger.svg": "/static/media/svg-hamburger.5c37b518bed41b38412910cea009fe96.svg",
+    "static/media/svg-git.svg": "/static/media/svg-git.e516083a0c6c8aaf56ffaf6a63e59438.svg",
+    "static/media/svg-itch-white.svg": "/static/media/svg-itch-white.00f291392dff41595e3d55568d406f9d.svg",
+    "static/media/svg-itch.svg": "/static/media/svg-itch.61ee8aea6ac19c91364d897b165e45b9.svg",
+    "static/media/svg-youtube.svg": "/static/media/svg-youtube.ded492c9dee2c17b04b7a847ae8dc85c.svg",
+    "static/media/svg-bitbucket-white.svg": "/static/media/svg-bitbucket-white.eb1a2ed713690b15ae6bcf4adafe69d1.svg",
+    "index.html": "/index.html",
+    "static/media/svg-close.svg": "/static/media/svg-close.43acac53cb85a6489dbf8cf3109f8021.svg",
+    "static/media/svg-linkedin.svg": "/static/media/svg-linkedin.4637f65bae0d602f0286153f10e0de9c.svg",
+    "static/media/svg-external.svg": "/static/media/svg-external.cd97de4624906b2ca4fd9654d26ea70c.svg",
+    "main.c6822761.css.map": "/static/css/main.c6822761.css.map",
+    "main.ffcc6064.js.map": "/static/js/main.ffcc6064.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6822761.css",
+    "static/js/main.ffcc6064.js"
+  ]
+}
