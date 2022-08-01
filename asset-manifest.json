@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.16c4c198.css",
-    "main.js": "/static/js/main.3f42ba50.js",
+    "main.js": "/static/js/main.db346fb7.js",
     "static/media/StevenMiracleResume.pdf": "/static/media/StevenMiracleResume.db7b46824cde03549a64.pdf",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/me.jpg": "/static/media/me.0faa72a709bed75422b1.jpg",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/me.jpg": "/static/media/me.69ffde8d0a07e5b052f9.jpg",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
@@ -21,10 +21,10 @@
     "static/media/svg-linkedin.svg": "/static/media/svg-linkedin.4637f65bae0d602f0286153f10e0de9c.svg",
     "static/media/svg-external.svg": "/static/media/svg-external.6c0c9502411f959ddcd826c0eefef896.svg",
     "main.16c4c198.css.map": "/static/css/main.16c4c198.css.map",
-    "main.3f42ba50.js.map": "/static/js/main.3f42ba50.js.map"
+    "main.db346fb7.js.map": "/static/js/main.db346fb7.js.map"
   },
   "entrypoints": [
     "static/css/main.16c4c198.css",
-    "static/js/main.3f42ba50.js"
+    "static/js/main.db346fb7.js"
   ]
 }
