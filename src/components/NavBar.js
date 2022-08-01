@@ -9,11 +9,13 @@ import closeIcon from "../assets/img/svg-close.svg";
 import { HashLink } from "react-router-hash-link";
 import { BrowserRouter as Router } from "react-router-dom";
 import UseOnClickOutside from "./UseOnClickOutside";
+import UseScrollDirection from "./UseScrollDirection";
 
 function NavBar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
-  const [isScrolled, setIsScrolled] = useState(false);
+  const scrollDirection = UseScrollDirection("down");
+  const [isScrolledToTop, setIsScrolledToTop] = useState(true);
   const navIcons = [linkedInIcon, bitbucketIcon, itchIcon];
   const socialUrls = [
     "https://www.linkedin.com/in/steven-miracle/",
@@ -23,20 +25,16 @@ function NavBar() {
   const handleHamburgerClick = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
+  const handleScroll = () => {
+    setIsScrolledToTop(window.pageYOffset < 50);
+  };
 
   useEffect(() => {
-    const onScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", onScroll);
+    window.addEventListener("scroll", handleScroll);
     window.addEventListener("resize", onResize);
     return () => {
       window.removeEventListener("resize", onResize);
-      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   const wrapperRef = useRef();
@@ -72,10 +70,23 @@ function NavBar() {
     },
   ];
 
+  const getHeaderClassName = () => {
+    let classname = "nav-header";
+    if (!isScrolledToTop) {
+      classname += " scrolled";
+    }
+    if (scrollDirection === "down") {
+      classname += " scrolled-down";
+    } else {
+      classname += " scrolled-up";
+    }
+    return classname;
+  };
+
   return (
     <Router>
       <div>
-        <header className={isScrolled ? "nav-header scrolled" : "nav-header"}>
+        <header className={getHeaderClassName()}>
           <nav className="navbar-constraint">
             <a href="#home">
               <div className="navbar-logo">
@@ -126,7 +137,6 @@ function NavBar() {
                   alt="hamburger"
                 />
               </button>
-
               <aside
                 className={isSidebarOpen ? "nav-sidebar" : "nav-sidebar-hide"}
               >

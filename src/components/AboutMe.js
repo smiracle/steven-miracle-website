@@ -29,16 +29,15 @@ const AboutMe = () => {
                         a good way to learn about object oriented programming!
                       </p>
                       <p>
-                        Fast-forward to today, and I’ve had the privilege of
-                        working on Tesla.com, solar panel software that can
-                        calculate energy costs anywhere in the country, a CRM at
-                        a massive cloud computing corporation, an insurance
-                        agency web portal, an enterprise scale healthcare
-                        application at a start-up, documentation at an Apple
-                        subsidiary, I even led a training course at a network
-                        hardware company. My main focus now is expanding and
-                        strengthening my skill set when it comes to tools that I
-                        love working with.
+                        Since then I’ve had the privilege of working on
+                        Tesla.com, solar panel software that can calculate
+                        energy costs anywhere in the country, a CRM at a massive
+                        cloud computing corporation, an insurance agency web
+                        portal, an enterprise scale healthcare application at a
+                        start-up, documentation at an Apple subsidiary, I even
+                        led a training course at a network hardware company. My
+                        main focus now is expanding and strengthening my skill
+                        set when it comes to tools that I love working with.
                       </p>
                       <p>
                         I also love building my own games and submitting them to
