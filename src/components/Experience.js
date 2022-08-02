@@ -36,7 +36,7 @@ const Experience = () => {
                         <Nav variant="pills" className="flex-column">
                           {experienceData.map((data, index) => {
                             return (
-                              <Nav.Item>
+                              <Nav.Item key={index}>
                                 <Nav.Link eventKey={"index" + index} href="#">
                                   {data.company}
                                 </Nav.Link>
@@ -49,7 +49,7 @@ const Experience = () => {
                         <Tab.Content>
                           {experienceData.map((data, index) => {
                             return (
-                              <Tab.Pane eventKey={"index" + index}>
+                              <Tab.Pane key={index} eventKey={"index" + index}>
                                 <h5>
                                   {" "}
                                   <span>{data.jobtitle}</span>{" "}
@@ -59,8 +59,8 @@ const Experience = () => {
                                 </h5>
                                 <p className="experience-time">{data.time}</p>
                                 <ul className="experience-list">
-                                  {data.bullets.map((bullet) => {
-                                    return <li>{bullet}</li>;
+                                  {data.bullets.map((bullet, index) => {
+                                    return <li key={index}>{bullet}</li>;
                                   })}
                                 </ul>
                               </Tab.Pane>

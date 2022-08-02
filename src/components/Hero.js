@@ -4,7 +4,7 @@ import TrackVisibility from "react-on-screen";
 
 const Hero = () => {
   return (
-    <section className="banner" id="home">
+    <section className="hero" id="home">
       <Row className="align-items-center">
         <Col xs={12} md={12} xl={12}>
           <TrackVisibility once={true} partialVisibility>
@@ -18,7 +18,7 @@ const Hero = () => {
                   <span className="tagline">Hi, my name is</span>
                   <h1>{`Steven Miracle.`}</h1>
                   <h1 className="txt-rotate-header">
-                    I'm a Full Stack Developer.
+                    I'm a Full-Stack Developer.
                   </h1>
                   <p className="tagline-white">
                     I specialize in building enterprise scale software and

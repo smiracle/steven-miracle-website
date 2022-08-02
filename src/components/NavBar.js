@@ -27,6 +27,9 @@ function NavBar() {
   };
   const handleScroll = () => {
     setIsScrolledToTop(window.pageYOffset < 50);
+    if (window.pageYOffset > 40) {
+      setIsSidebarOpen(false);
+    }
   };
 
   useEffect(() => {
@@ -95,9 +98,9 @@ function NavBar() {
             </a>
             <div className="navbar-links">
               <ol>
-                {navLinks.map((navLink) => {
+                {navLinks.map((navLink, index) => {
                   return (
-                    <li>
+                    <li key={index}>
                       <a
                         href={navLink.url}
                         className={
@@ -133,7 +136,11 @@ function NavBar() {
               <button className="navbar-toggler" onClick={handleHamburgerClick}>
                 <img
                   src={isSidebarOpen ? closeIcon : hamburgerIcon}
-                  className="hamburger"
+                  className={
+                    isSidebarOpen
+                      ? "hamburger filter-orange"
+                      : "hamburger filter-white"
+                  }
                   alt="hamburger"
                 />
               </button>
@@ -142,9 +149,9 @@ function NavBar() {
               >
                 <nav className="nav-sidebar-inner">
                   <ol>
-                    {navLinks.map((navLink) => {
+                    {navLinks.map((navLink, index) => {
                       return (
-                        <li>
+                        <li key={index}>
                           <a
                             href={navLink.url}
                             className={

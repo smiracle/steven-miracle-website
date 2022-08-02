@@ -80,8 +80,8 @@ export const ProjectCard = ({
             <h6>{description}</h6>
           </div>
           <ul className="project-tech-list">
-            {tools.map((tool) => {
-              return <li>{tool}</li>;
+            {tools.map((tool, index) => {
+              return <li key={index}>{tool}</li>;
             })}
           </ul>
         </div>

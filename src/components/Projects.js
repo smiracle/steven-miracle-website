@@ -67,20 +67,14 @@ const Projects = () => {
                         <Nav.Link eventKey="third">And More</Nav.Link>
                       </Nav.Item>
                     </Nav>
-                    <Tab.Content
-                      id="fadeIn"
-                      className="proj-width-limiter"
-                      // className={
-                      //   isVisible ? "animate__animated animate__fader" : ""
-                      // }
-                    >
+                    <Tab.Content id="fadeIn" className="proj-width-limiter">
                       <Tab.Pane eventKey="first">
                         <ul className="proj-grid">
                           {webAppRows.map((row, index) => {
-                            return row.map((project) => {
+                            return row.map((project, projectIndex) => {
                               return (
                                 <ProjectCard
-                                  key={index}
+                                  key={projectIndex}
                                   tools={[project.tools]}
                                   {...project}
                                 />
@@ -92,10 +86,10 @@ const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <ul className="proj-grid">
                           {gameRows.map((row, index) => {
-                            return row.map((project) => {
+                            return row.map((project, projectIndex) => {
                               return (
                                 <ProjectCard
-                                  key={index}
+                                  key={projectIndex}
                                   tools={[project.tools]}
                                   {...project}
                                 />
@@ -107,10 +101,10 @@ const Projects = () => {
                       <Tab.Pane eventKey="third">
                         <ul className="proj-grid">
                           {moreRows.map((row, index) => {
-                            return row.map((project) => {
+                            return row.map((project, projectIndex) => {
                               return (
                                 <ProjectCard
-                                  key={index}
+                                  key={projectIndex}
                                   tools={[project.tools]}
                                   {...project}
                                 />

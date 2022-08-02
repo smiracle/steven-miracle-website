@@ -1,4 +1,5 @@
 import "react-multi-carousel/lib/styles.css";
+import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import me from "../assets/img/me.jpg";
 import TrackVisibility from "react-on-screen";
@@ -15,12 +16,10 @@ const AboutMe = () => {
               <Row>
                 <div className="about-bx wow zoomIn">
                   <Row>
-                    <div className="col-12">
-                      <h3 id="about">About Me</h3>
-                    </div>
+                    <h3 id="about">About Me</h3>
                   </Row>
-                  <div className="row">
-                    <div className="col-lg-8">
+                  <Row>
+                    <Col md={8} xs={12}>
                       <p>
                         Hello! My name is Steven and I enjoy creating web
                         applications. My interest in programming started back in
@@ -57,12 +56,12 @@ const AboutMe = () => {
                         <li>Azure</li>
                         <li>Docker</li>
                       </ul>
-                    </div>
+                    </Col>
 
-                    <div className="col-lg-4 me-column">
+                    <Col md={4} xs={12}>
                       <img src={me} alt="me" className="img-me" />
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
                 </div>
               </Row>
             </div>
