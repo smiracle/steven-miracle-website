@@ -2,17 +2,17 @@
 
 This website was built by Steven on 7/30/2022 using React, React Bootstrap, and animate.css.
 
-###To run locally:
+#### To run locally:
 ```
 npm run start
 ```
 
-###To compile for deployment:
+#### To compile for deployment:
 ```
 npm run build
 ```
 
-###To compile and deploy:
+#### To compile and deploy:
 ```
 npm run deploy
 ```
