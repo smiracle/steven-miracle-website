@@ -1,3 +1,12 @@
 ### Steven Miracle's Website
 
-Created 7/30/2022
+This website was built by Steven on 7/30/2022 using React, React Bootstrap, and animate.css.
+
+####To run locally:
+npm run start
+
+####To compile for deployment:
+npm run build
+
+####To deploy:
+npm run deploy

@@ -2,10 +2,10 @@
 [
     {
         "type": "webapp",
-        "title": "E-Tickets",
+        "title": "E-Movies",
         "year": "2022",
         "description": "E-commerce site for movies",
-        "tools": [".Net Core", "SQL", "Azure"],
+        "tools": [".Net", "SQL", "Azure"],
         "externalUrl": "https://etickets-miracle-app.azurewebsites.net/",
         "repoUrl": "https://bitbucket.org/smiracle/dotnetecommerce/src/master/"
     },

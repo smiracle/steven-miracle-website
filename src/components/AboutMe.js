@@ -30,9 +30,9 @@ const AboutMe = () => {
                       <p>
                         Since then I’ve had the privilege of working on
                         Tesla.com, solar panel software that can calculate
-                        energy costs anywhere in the country, a CRM at a massive
-                        cloud computing corporation, an insurance agency web
-                        portal, an enterprise scale healthcare application at a
+                        energy costs anywhere in the country, a CMS at a cloud
+                        computing corporation, an insurance agency web portal,
+                        an enterprise scale healthcare application at a
                         start-up, documentation at an Apple subsidiary, I even
                         led a training course at a network hardware company. My
                         main focus now is expanding and strengthening my skill
