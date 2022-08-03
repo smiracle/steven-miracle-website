@@ -7,7 +7,7 @@
         "description": "E-commerce site for movies",
         "tools": [".Net", "SQL", "Azure"],
         "externalUrl": "https://etickets-miracle-app.azurewebsites.net/",
-        "repoUrl": "https://bitbucket.org/smiracle/dotnetecommerce/src/master/"
+        "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/"
     },
     {
         "type": "webapp",
@@ -101,31 +101,20 @@
     },
     {
         "type": "game",
-        "title": "Glitch Garden",
-        "year": "2017",
-        "description": "Plants vs. Zombies clone",
-        "imgUrl": "../project-images/GlitchGarden.png",
-        "tools": ["Unity"],
-        "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
-        "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
-        "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
-    },
-    {
-        "type": "game",
         "title": "Block breaker",
-        "year": "2016",
+        "year": "2017",
         "description": "Breakout clone",
         "imgUrl": "../project-images/BlockBreaker.png",
         "tools": ["Unity"],
         "repoUrl": "https://bitbucket.org/smiracle/blockbreaker",
         "itchUrl": "https://stemir.itch.io/blockbreaker?secret=czarLWPm890XYqTzUhawxkeDYE",
         "youtubeUrl": "https://youtu.be/5JhqcrcCb7E"
-    },
+    }, 
     {
         "type": "game",
         "title": "Dragonstrike",
         "year": "2016",
-        "description": "Tilemap generation + RPG",
+        "description": "Tilemap generation & RPG",
         "imgUrl": "../project-images/Dragonstrike.png",
         "tools": ["Unity", "Photoshop", "Gimp"],
         "repoUrl": "https://bitbucket.org/smiracle/dragonstrike",
@@ -134,18 +123,29 @@
     {
         "type": "more",
         "title": "Lunk",
-        "year": "2017",
-        "description": "An experiment in multiplayer",
+        "year": "2016",
+        "description": "Multiplayer experiment",
         "imgUrl": "../project-images/Lunk.png",
         "tools": ["Unity", "Photon"],
         "repoUrl": "https://bitbucket.org/smiracle/lunk",
         "youtubeUrl": "https://youtu.be/2tddXyIwhvk"
     },
     {
+        "type": "game",
+        "title": "Glitch Garden",
+        "year": "2015",
+        "description": "Plants vs. Zombies clone",
+        "imgUrl": "../project-images/GlitchGarden.png",
+        "tools": ["Unity"],
+        "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
+        "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
+        "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
+    },   
+    {
         "type": "more",
         "title": "Fractal",
         "year": "2015",
-        "description": "A procedural object experiment",
+        "description": "Procedural object experiment",
         "imgUrl": "../project-images/Fractal.png",
         "tools": ["Unity"],
         "repoUrl": "https://bitbucket.org/smiracle/fractal",
@@ -156,7 +156,7 @@
         "type": "more",
         "title": "Maze",
         "year": "2015",
-        "description": "A procedurally generated 3D maze",
+        "description": "Randomly generated 3D maze",
         "imgUrl": "../project-images/Maze.png",
         "tools": ["Unity"],
         "repoUrl": "https://bitbucket.org/smiracle/maze",
