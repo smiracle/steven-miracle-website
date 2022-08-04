@@ -20,7 +20,7 @@ const Contact = () => {
                       is always open. Whether you have a question or just want
                       to say hi, I’ll try my best to get back to you!
                     </p>
-                    <a href="mailto:mail@stevenmiracle.com">
+                    <a href="mailto:stvnmiracle@gmail.com">
                       <button className="navbar-resume-button">
                         <span>Say Hello</span>
                       </button>
