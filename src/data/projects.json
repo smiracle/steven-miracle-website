@@ -15,7 +15,7 @@
     "description": "Data search app for a tabletop game",
     "tools": ["React + Typescript"],
     "externalUrl": "https://react-dungeons-and-dragons.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
+    "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
   },
   {
     "type": "webapp",
