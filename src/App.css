@@ -32,11 +32,6 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #2a2b2e !important;
-  /* background: linear-gradient(
-    70deg,
-    #2a2b2e -5.91%,
-    #676a6d 111.58%
-  ) !important; */
   color: #fff !important;
   font-family: "Centra", sans-serif !important;
   line-height: 1.5;
@@ -202,9 +197,10 @@ select:focus {
   margin: 0px 5px;
   position: relative;
 }
-.navbar-margin {
-  margin-left: auto;
-  flex-grow: 0 !important;
+@media (max-width: 850px) {
+  .navbar-links {
+    display: none;
+  }
 }
 .navbar-link {
   font-weight: 400;
@@ -231,6 +227,11 @@ select:focus {
   z-index: 10;
   padding: 15px;
   border: 0px;
+}
+@media (min-width: 850px) {
+  .navbar-toggler {
+    display: none;
+  }
 }
 .hamburger {
   width: 40px;
@@ -279,6 +280,7 @@ select:focus {
   flex-direction: column;
   color: #b8b8b8;
   text-align: center;
+  margin-top: 40px;
 }
 .nav-sidebar-inner ol {
   list-style: none;
@@ -325,16 +327,7 @@ select:focus {
 .navbar-text button:hover {
   color: #121212;
 }
-@media (min-width: 850px) {
-  .navbar-toggler {
-    display: none;
-  }
-}
-@media (max-width: 850px) {
-  .navbar-links {
-    display: none;
-  }
-}
+
 .navbar-text button:hover::before {
   content: "";
   width: 100%;

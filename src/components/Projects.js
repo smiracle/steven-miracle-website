@@ -1,5 +1,5 @@
 import { Row, Col, Tab, Nav } from "react-bootstrap";
-import { ProjectCard } from "./ProjectCard";
+import ProjectCard from "./ProjectCard";
 import projectData from "../data/projects.json";
 import "animate.css";
 import TrackVisibility from "react-on-screen";

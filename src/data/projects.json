@@ -13,7 +13,7 @@
     "title": "D&D Search",
     "year": "2022",
     "description": "Data search app for a tabletop game",
-    "tools": ["React + Typescript"],
+    "tools": ["React + TypeScript"],
     "externalUrl": "https://react-dungeons-and-dragons.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
   },

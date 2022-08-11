@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "animate.css";
 
-export const ProjectLink = ({ src, url, alt }) => {
+const ProjectLink = ({ src, url, alt }) => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
@@ -16,3 +16,5 @@ export const ProjectLink = ({ src, url, alt }) => {
     </a>
   );
 };
+
+export default ProjectLink;
