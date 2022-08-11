@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbf717af.css",
-    "main.js": "/static/js/main.ea7765fb.js",
+    "main.css": "/static/css/main.ab01cb42.css",
+    "main.js": "/static/js/main.ad9561ce.js",
     "static/media/StevenMiracleResume.pdf": "/static/media/StevenMiracleResume.4cd4b3ddc89fdc7877a2.pdf",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -20,11 +20,11 @@
     "static/media/svg-close.svg": "/static/media/svg-close.43acac53cb85a6489dbf8cf3109f8021.svg",
     "static/media/svg-linkedin.svg": "/static/media/svg-linkedin.4637f65bae0d602f0286153f10e0de9c.svg",
     "static/media/svg-external.svg": "/static/media/svg-external.6c0c9502411f959ddcd826c0eefef896.svg",
-    "main.dbf717af.css.map": "/static/css/main.dbf717af.css.map",
-    "main.ea7765fb.js.map": "/static/js/main.ea7765fb.js.map"
+    "main.ab01cb42.css.map": "/static/css/main.ab01cb42.css.map",
+    "main.ad9561ce.js.map": "/static/js/main.ad9561ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbf717af.css",
-    "static/js/main.ea7765fb.js"
+    "static/css/main.ab01cb42.css",
+    "static/js/main.ad9561ce.js"
   ]
 }
