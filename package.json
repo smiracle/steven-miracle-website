@@ -27,7 +27,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "add-domain": "echo stevenmiracle.com > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
