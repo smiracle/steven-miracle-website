@@ -54,7 +54,13 @@ const Experience = () => {
                                   {" "}
                                   <span>{data.jobtitle}</span>{" "}
                                   <span className="experience-company">
-                                    @ {data.company}
+                                    <a
+                                      href={data.companyUrl ?? ""}
+                                      className="link"
+                                    >
+                                      {" "}
+                                      @ {data.company}{" "}
+                                    </a>
                                   </span>
                                 </h5>
                                 <p className="experience-time">{data.time}</p>

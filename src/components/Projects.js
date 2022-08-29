@@ -3,36 +3,28 @@ import ProjectCard from "./ProjectCard";
 import projectData from "../data/projects.json";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
-import _ from "lodash";
 
 const Projects = () => {
-  const webAppRows = _.chunk(
-    projectData.filter((project) => {
-      if (project.type === "webapp") {
-        return true;
-      }
-      return false;
-    }),
-    3
-  );
-  const gameRows = _.chunk(
-    projectData.filter((project) => {
-      if (project.type === "game") {
-        return true;
-      }
-      return false;
-    }),
-    3
-  );
-  const moreRows = _.chunk(
-    projectData.filter((project) => {
-      if (project.type === "more") {
-        return true;
-      }
-      return false;
-    }),
-    3
-  );
+  const webAppCards = projectData.filter((project) => {
+    if (project.type === "webapp") {
+      return true;
+    }
+    return false;
+  });
+
+  const gameCards = projectData.filter((project) => {
+    if (project.type === "game") {
+      return true;
+    }
+    return false;
+  });
+
+  const moreCards = projectData.filter((project) => {
+    if (project.type === "more") {
+      return true;
+    }
+    return false;
+  });
 
   return (
     <section className="project">
@@ -70,46 +62,43 @@ const Projects = () => {
                     <Tab.Content id="fadeIn" className="proj-width-limiter">
                       <Tab.Pane eventKey="first">
                         <ul className="proj-grid">
-                          {webAppRows.map((row, index) => {
-                            return row.map((project, projectIndex) => {
-                              return (
-                                <ProjectCard
-                                  key={projectIndex}
-                                  tools={[project.tools]}
-                                  {...project}
-                                />
-                              );
-                            });
+                          {webAppCards.map((project, index) => {
+                            console.log(project);
+                            return (
+                              <ProjectCard
+                                key={index}
+                                tools={[project.tools]}
+                                {...project}
+                              />
+                            );
                           })}
                         </ul>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
                         <ul className="proj-grid">
-                          {gameRows.map((row, index) => {
-                            return row.map((project, projectIndex) => {
-                              return (
-                                <ProjectCard
-                                  key={projectIndex}
-                                  tools={[project.tools]}
-                                  {...project}
-                                />
-                              );
-                            });
+                          {gameCards.map((project, index) => {
+                            console.log(project);
+                            return (
+                              <ProjectCard
+                                key={index}
+                                tools={[project.tools]}
+                                {...project}
+                              />
+                            );
                           })}
                         </ul>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <ul className="proj-grid">
-                          {moreRows.map((row, index) => {
-                            return row.map((project, projectIndex) => {
-                              return (
-                                <ProjectCard
-                                  key={projectIndex}
-                                  tools={[project.tools]}
-                                  {...project}
-                                />
-                              );
-                            });
+                          {moreCards.map((project, index) => {
+                            console.log(project);
+                            return (
+                              <ProjectCard
+                                key={index}
+                                tools={[project.tools]}
+                                {...project}
+                              />
+                            );
                           })}
                         </ul>
                       </Tab.Pane>

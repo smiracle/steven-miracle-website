@@ -1,6 +1,15 @@
 [
   {
     "type": "webapp",
+    "title": "Fake Shop App",
+    "year": "2022",
+    "description": "An online retail store, uses a self-hosted API",
+    "tools": ["React", "Express JS", "MongoDB", "Redux", "Thunk", "Heroku"],
+    "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
+  },
+  {
+    "type": "webapp",
     "title": "E-Movies",
     "year": "2022",
     "description": "E-commerce site for movies",
@@ -34,15 +43,6 @@
     "tools": ["React + TypeScript", "Heroku"],
     "externalUrl": "https://miracle-react-ticket-app.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
-  },
-  {
-    "type": "webapp",
-    "title": "Fake Shop App",
-    "year": "2022",
-    "description": "An online retail store, uses a self-hosted API",
-    "tools": ["React", "Express JS", "MongoDB", "Redux", "Thunk", "Heroku"],
-    "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
   },
   {
     "type": "game",
@@ -120,6 +120,17 @@
     "youtubeUrl": "https://youtu.be/J1k-Zm45QAQ"
   },
   {
+    "type": "game",
+    "title": "Glitch Garden",
+    "year": "2015",
+    "description": "Plants vs. Zombies clone",
+    "imgUrl": "../project-images/GlitchGarden.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
+    "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
+    "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
+  },
+  {
     "type": "more",
     "title": "Password API",
     "year": "2022",
@@ -137,17 +148,6 @@
     "tools": ["Unity", "Photon"],
     "repoUrl": "https://bitbucket.org/smiracle/lunk",
     "youtubeUrl": "https://youtu.be/2tddXyIwhvk"
-  },
-  {
-    "type": "game",
-    "title": "Glitch Garden",
-    "year": "2015",
-    "description": "Plants vs. Zombies clone",
-    "imgUrl": "../project-images/GlitchGarden.png",
-    "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
-    "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
-    "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
   },
   {
     "type": "more",

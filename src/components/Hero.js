@@ -22,8 +22,15 @@ const Hero = () => {
                   </h1>
                   <p className="tagline-white">
                     I specialize in building enterprise scale software and
-                    microservices. I'm currently looking for the next employment
-                    opportunity.
+                    microservices. Currently I'm focused on building APIs and
+                    web tools used by the engineering teams at{" "}
+                    <a
+                      className="link"
+                      href="https://www.pixelberrystudios.com/"
+                    >
+                      Pixelberry Studios
+                    </a>
+                    .
                   </p>
                 </div>
               );

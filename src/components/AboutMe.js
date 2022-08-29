@@ -51,8 +51,8 @@ const AboutMe = () => {
                         <li>React</li>
                         <li>TypeScript</li>
                         <li>MongoDB</li>
-                        <li>Express JS</li>
-                        <li>Node JS</li>
+                        <li>Node / Express</li>
+                        <li>Heroku</li>
                         <li>Azure</li>
                         <li>Docker</li>
                       </ul>

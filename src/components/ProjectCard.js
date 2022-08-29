@@ -26,73 +26,67 @@ const ProjectCard = ({
   }
 
   return (
-    (itchUrl || externalUrl) && (
-      <a
-        href={externalUrl == null ? itchUrl : externalUrl}
-        className="proj-card-outer-link"
+    <a
+      href={externalUrl == null ? itchUrl : externalUrl}
+      className="proj-card-outer-link"
+    >
+      <li
+        className={getClassName()}
+        onMouseEnter={(e) => setIsHovered(true)}
+        onMouseLeave={(e) => setIsHovered(false)}
       >
-        <li
-          className={getClassName()}
-          onMouseEnter={(e) => setIsHovered(true)}
-          onMouseLeave={(e) => setIsHovered(false)}
+        <div
+          className={"proj-card"}
+          style={{ backgroundImage: "url(" + imgUrl + ")" }}
         >
-          <div
-            className={"proj-card"}
-            style={{ backgroundImage: "url(" + imgUrl + ")" }}
-          >
-            <div className="proj-top">
-              <div className="proj-links">
-                {externalUrl && (
-                  <ProjectLink
-                    src={externalIcon}
-                    url={externalUrl}
-                    alt="external link"
-                  />
-                )}
-                {itchUrl && (
-                  <ProjectLink
-                    src={itchIcon}
-                    url={itchUrl}
-                    alt="itch.io link"
-                  />
-                )}
-                {repoUrl && (
-                  <ProjectLink
-                    src={gitIcon}
-                    url={repoUrl}
-                    alt="code repository link"
-                    data-id="git-link"
-                    onMouseEnter={(e) => {
-                      console.log("enter");
-                    }}
-                  />
-                )}
-                {youtubeUrl && (
-                  <ProjectLink
-                    src={youtubeIcon}
-                    url={youtubeUrl}
-                    alt="youtube link"
-                  />
-                )}
-              </div>
+          <div className="proj-top">
+            <div className="proj-links">
+              {externalUrl && (
+                <ProjectLink
+                  src={externalIcon}
+                  url={externalUrl}
+                  alt="external link"
+                />
+              )}
+              {itchUrl && (
+                <ProjectLink src={itchIcon} url={itchUrl} alt="itch.io link" />
+              )}
+              {repoUrl && (
+                <ProjectLink
+                  src={gitIcon}
+                  url={repoUrl}
+                  alt="code repository link"
+                  data-id="git-link"
+                  onMouseEnter={(e) => {
+                    console.log("enter");
+                  }}
+                />
+              )}
+              {youtubeUrl && (
+                <ProjectLink
+                  src={youtubeIcon}
+                  url={youtubeUrl}
+                  alt="youtube link"
+                />
+              )}
             </div>
-            <h5 className={isHovered ? "proj-card-orange" : "proj-card-white"}>
-              {title}
-            </h5>
-            <div className="proj-year-and-desc">
-              <h6>({year})</h6>
-
-              <h6>{description}</h6>
-            </div>
-            <ul className="project-tech-list">
-              {tools.map((tool, index) => {
-                return <li key={index}>{tool}</li>;
-              })}
-            </ul>
           </div>
-        </li>
-      </a>
-    )
+          <h5 className={isHovered ? "proj-card-orange" : "proj-card-white"}>
+            {title}
+          </h5>
+          <div className="proj-year-and-desc">
+            <h6>({year})</h6>
+
+            <h6>{description}</h6>
+          </div>
+          <ul className="project-tech-list">
+            {tools.map((tool, index) => {
+              return <li key={index}>{tool}</li>;
+            })}
+          </ul>
+        </div>
+      </li>
+    </a>
   );
 };
 

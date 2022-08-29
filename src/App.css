@@ -943,3 +943,12 @@ span.navbar-text {
   width: 100%;
   margin-left: auto;
 }
+
+a.link {
+  color: #fa824c !important;
+}
+
+a.link:hover {
+  color: #fa824c !important;
+  text-decoration: underline !important;
+}
