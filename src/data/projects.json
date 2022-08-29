@@ -36,6 +36,15 @@
     "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
   },
   {
+    "type": "webapp",
+    "title": "Fake Shop App",
+    "year": "2022",
+    "description": "An online retail store, uses a self-hosted API",
+    "tools": ["React", "Express JS", "MongoDB", "Redux", "Thunk", "Heroku"],
+    "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
+  },
+  {
     "type": "game",
     "title": "Mr. Bigly",
     "year": "2021",
