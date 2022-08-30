@@ -63,7 +63,6 @@ const Projects = () => {
                       <Tab.Pane eventKey="first">
                         <ul className="proj-grid">
                           {webAppCards.map((project, index) => {
-                            console.log(project);
                             return (
                               <ProjectCard
                                 key={index}
@@ -77,7 +76,6 @@ const Projects = () => {
                       <Tab.Pane eventKey="second">
                         <ul className="proj-grid">
                           {gameCards.map((project, index) => {
-                            console.log(project);
                             return (
                               <ProjectCard
                                 key={index}
@@ -91,7 +89,6 @@ const Projects = () => {
                       <Tab.Pane eventKey="third">
                         <ul className="proj-grid">
                           {moreCards.map((project, index) => {
-                            console.log(project);
                             return (
                               <ProjectCard
                                 key={index}

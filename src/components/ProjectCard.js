@@ -57,9 +57,6 @@ const ProjectCard = ({
                   url={repoUrl}
                   alt="code repository link"
                   data-id="git-link"
-                  onMouseEnter={(e) => {
-                    console.log("enter");
-                  }}
                 />
               )}
               {youtubeUrl && (

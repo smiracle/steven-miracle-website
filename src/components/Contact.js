@@ -16,9 +16,10 @@ const Contact = () => {
                   <Col size={12} md={12}>
                     <h3 id="contact">Get In Touch</h3>
                     <p>
-                      I’m currently looking for new opportunities and my inbox
-                      is always open. Whether you have a question or just want
-                      to say hi, I’ll try my best to get back to you!
+                      I'm not actively looking for new opportunities at this
+                      time, but my inbox is always open. Whether you have a
+                      question or just want to say hi, I’ll get back to you
+                      soon!
                     </p>
                     <a href="mailto:stvnmiracle@gmail.com">
                       <button className="navbar-resume-button">
