@@ -4,7 +4,7 @@
     "title": "Fake Shop App",
     "year": "2022",
     "description": "An online retail store, uses a self-hosted API",
-    "tools": ["React", "Express JS", "MongoDB", "Redux", "Thunk", "Heroku"],
+    "tools": ["React", "Express JS", "MongoDB", "Redux", "Heroku"],
     "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
   },
@@ -21,18 +21,18 @@
     "type": "webapp",
     "title": "D&D Search",
     "year": "2022",
-    "description": "Data search app for a tabletop game",
-    "tools": ["React + TypeScript"],
-    "externalUrl": "https://react-dungeons-and-dragons.herokuapp.com/",
+    "description": "Search app for a tabletop game",
+    "tools": ["React + TypeScript, Netlify"],
+    "externalUrl": "https://react-dungeons-and-dragons.netlify.app/",
     "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
   },
   {
     "type": "webapp",
     "title": "Todo List",
     "year": "2022",
-    "description": "Data-persistent todo list",
-    "tools": ["Express JS", "MongoDB", "Heroku"],
-    "externalUrl": "https://calm-cliffs-84232.herokuapp.com/",
+    "description": "Persistent todo list",
+    "tools": ["Express JS", "MongoDB", "AWS"],
+    "externalUrl": "http://todolist-dev.us-west-1.elasticbeanstalk.com/",
     "repoUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
   },
   {
