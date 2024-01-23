@@ -1,33 +1,69 @@
 [
   {
-    "type": "webapp",
-    "title": "Fake Shop App",
+    "type": "app",
+    "title": "E-Movies",
     "year": "2022",
-    "description": "An online retail store, uses a self-hosted API",
+    "description": "Fully functional e-commerce site for movies, uses fake data",
+    "tools": [".Net", "SQL", "Azure"],
+    "externalUrl": "https://steven-etickets-app.azurewebsites.net/",
+    "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/"
+  },
+  {
+    "type": "app",
+    "title": "Fake Shop",
+    "year": "2022",
+    "description": "A fake online retail store, uses a proxy API",
     "tools": ["React", "Express JS", "MongoDB", "Redux", "Heroku"],
     "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
   },
   {
-    "type": "webapp",
-    "title": "E-Movies",
+    "type": "app",
+    "title": "Video Game Price Lookup",
     "year": "2022",
-    "description": "E-commerce site for movies",
-    "tools": [".Net", "SQL", "Azure"],
-    "externalUrl": "https://etickets-miracle-app.azurewebsites.net/",
-    "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/"
+    "description": "Android app for real video game price lookup",
+    "tools": ["React Native", "Typescript"],
+    "externalUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/",
+    "repoUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/"
   },
   {
-    "type": "webapp",
+    "type": "app",
+    "title": "Infinite Chatbot",
+    "year": "2023",
+    "description": "Input the names of two people or characters and ChatGPT will talk with itself",
+    "tools": ["GPT-3", "Open AI API", "Typescript"],
+    "externalUrl": "https://infinite-chatbot-e0f61aa19e07.herokuapp.com/",
+    "repoUrl": "https://github.com/smiracle/chatgpt-experiment"
+  },
+  {
+    "type": "app",
+    "title": "Machine Learning: Snake",
+    "year": "2023",
+    "description": "ML app that uses reinforcement to iteratively learn how to play the game 'Snake'",
+    "tools": ["Tensorflow", "Python", "Conda", "PyTorch", "Pygame"],
+    "externalUrl": "https://github.com/smiracle/snake-pytorch-experiment",
+    "repoUrl": "https://github.com/smiracle/snake-pytorch-experiment"
+  },
+  {
+    "type": "app",
     "title": "D&D Search",
     "year": "2022",
-    "description": "Search app for a tabletop game",
-    "tools": ["React + TypeScript, Netlify"],
+    "description": "Search web app for a tabletop game with a responsive UI",
+    "tools": ["TypeScript", "React", "Netlify"],
     "externalUrl": "https://react-dungeons-and-dragons.netlify.app/",
     "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
   },
   {
-    "type": "webapp",
+    "type": "tool",
+    "title": "Price Charting Web Scraper",
+    "year": "2023",
+    "description": "Web scraper that gathers video game pricing data",
+    "tools": ["Python", "Selenium"],
+    "externalUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/",
+    "repoUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/"
+  },
+  {
+    "type": "tool",
     "title": "Todo List",
     "year": "2022",
     "description": "Persistent todo list",
@@ -36,13 +72,22 @@
     "repoUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
   },
   {
-    "type": "webapp",
+    "type": "tool",
     "title": "Workflow Ticket App",
     "year": "2022",
-    "description": "Workflow ticketing system front-end",
-    "tools": ["React + TypeScript", "Heroku"],
+    "description": "Ticket system front-end for task management",
+    "tools": ["TypeScript", "React", "Heroku"],
     "externalUrl": "https://miracle-react-ticket-app.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
+  },
+  {
+    "type": "tool",
+    "title": "Password API",
+    "year": "2022",
+    "description": "Azure hosted app + API + database",
+    "tools": [".Net Core", "SQL", "Azure", "Heroku"],
+    "externalUrl": "https://morning-basin-44332.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/miracle-web-api/src/master/"
   },
   {
     "type": "game",
@@ -131,16 +176,7 @@
     "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
   },
   {
-    "type": "more",
-    "title": "Password API",
-    "year": "2022",
-    "description": "Azure hosted app + API + database",
-    "tools": [".Net Core", "SQL", "Azure", "Heroku"],
-    "externalUrl": "https://morning-basin-44332.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/miracle-web-api/src/master/"
-  },
-  {
-    "type": "more",
+    "type": "game",
     "title": "Lunk",
     "year": "2016",
     "description": "Multiplayer experiment",
@@ -150,7 +186,7 @@
     "youtubeUrl": "https://youtu.be/2tddXyIwhvk"
   },
   {
-    "type": "more",
+    "type": "game",
     "title": "Fractal",
     "year": "2015",
     "description": "Procedural object experiment",
@@ -161,7 +197,7 @@
     "youtubeUrl": "https://youtu.be/2GqVD5ZdkPI"
   },
   {
-    "type": "more",
+    "type": "game",
     "title": "Maze",
     "year": "2015",
     "description": "Randomly generated 3D maze",

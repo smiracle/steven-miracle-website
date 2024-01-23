@@ -238,16 +238,13 @@ select:focus {
   height: 40px;
 }
 .filter-white {
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(40deg)
-    brightness(111%) contrast(108%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(40deg) brightness(111%) contrast(108%);
 }
 .filter-orange {
-  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg)
-    brightness(100%) contrast(99%);
+  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg) brightness(100%) contrast(99%);
 }
 .hamburger:hover {
-  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg)
-    brightness(100%) contrast(99%);
+  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg) brightness(100%) contrast(99%);
 }
 .nav-sidebar-hide {
   display: none;
@@ -389,7 +386,7 @@ span.navbar-text {
   align-items: center;
 }
 .social-icon {
-  display: inline-block;
+  display: flex;
   min-width: 150px;
 }
 .social-icon a {
@@ -423,8 +420,8 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
-  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%)
-    hue-rotate(346deg) brightness(95%) contrast(86%);
+  filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%)
+    contrast(86%);
 }
 
 /************ Hero CSS ************/
@@ -647,14 +644,12 @@ span.navbar-text {
   }
 }
 .proj-svg-orange {
-  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg)
-    brightness(100%) contrast(99%);
+  filter: invert(68%) sepia(33%) saturate(3590%) hue-rotate(327deg) brightness(100%) contrast(99%);
   width: 32px;
   height: 32px;
 }
 .proj-svg-white {
-  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(40deg)
-    brightness(111%) contrast(108%);
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(40deg) brightness(111%) contrast(108%);
   width: 32px;
   height: 32px;
 }
@@ -748,6 +743,7 @@ span.navbar-text {
 .animate__pushup {
   opacity: 1;
   animation: pushup 0.2s;
+  cursor: pointer;
 }
 .animate__pushdown {
   animation: pushdown 0.2s;
@@ -887,7 +883,6 @@ span.navbar-text {
   border: 1px solid #fa824c;
   padding: 18px 34px;
   font-size: 18px;
-  margin-left: 18px;
   position: relative;
   background-color: transparent;
   transition: 0.3s ease-in-out;
@@ -927,7 +922,9 @@ span.navbar-text {
   display: flex;
   padding: 0 0 10px 0;
   max-width: 1000px;
+  min-width: 200px;
   width: 100%;
+  justify-content: space-between;
 }
 .footer img {
   width: 26%;
@@ -941,7 +938,7 @@ span.navbar-text {
   font-size: 14px;
   color: #b8b8b8;
   width: 100%;
-  margin-left: auto;
+  text-align: right;
 }
 
 a.link {

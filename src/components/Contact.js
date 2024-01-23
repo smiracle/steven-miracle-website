@@ -8,18 +8,14 @@ const Contact = () => {
       <TrackVisibility once partialVisibility>
         {({ isVisible }) => {
           return (
-            <div
-              className={isVisible ? "animate__animated animate__fadeInUp" : ""}
-            >
+            <div className={isVisible ? "animate__animated animate__fadeInUp" : ""}>
               <Container>
                 <Row className="align-items-center">
                   <Col size={12} md={12}>
                     <h3 id="contact">Get In Touch</h3>
                     <p>
-                      I'm not actively looking for new opportunities at this
-                      time, but my inbox is always open. Whether you have a
-                      question or just want to say hi, I’ll get back to you
-                      soon!
+                      I'm actively looking for new employment opportunities at this time, so please feel free to contact
+                      me. Whether you have a question or just want to say hi, I’ll get back to you soon!
                     </p>
                     <a href="mailto:stvnmiracle@gmail.com">
                       <button className="navbar-resume-button">
