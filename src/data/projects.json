@@ -1,0 +1,209 @@
+[
+  {
+    "type": "app",
+    "title": "E-Movies",
+    "year": "2022",
+    "description": "Fully functional e-commerce site for movies, uses fake data",
+    "tools": [".Net", "SQL", "Azure"],
+    "externalUrl": "https://steven-etickets-app.azurewebsites.net/",
+    "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/"
+  },
+  {
+    "type": "app",
+    "title": "Fake Shop",
+    "year": "2022",
+    "description": "A fake online retail store, uses a proxy API",
+    "tools": ["React", "Express JS", "MongoDB", "Redux", "Heroku"],
+    "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
+  },
+  {
+    "type": "app",
+    "title": "Video Game Price Lookup",
+    "year": "2022",
+    "description": "Android app for real video game price lookup",
+    "tools": ["React Native", "Typescript"],
+    "externalUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/",
+    "repoUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/"
+  },
+  {
+    "type": "app",
+    "title": "Infinite Chatbot",
+    "year": "2023",
+    "description": "Input the names of two people or characters and ChatGPT will talk with itself",
+    "tools": ["GPT-3", "Open AI API", "Typescript"],
+    "externalUrl": "https://infinite-chatbot-e0f61aa19e07.herokuapp.com/",
+    "repoUrl": "https://github.com/smiracle/chatgpt-experiment"
+  },
+  {
+    "type": "app",
+    "title": "Machine Learning: Snake",
+    "year": "2023",
+    "description": "ML app that uses reinforcement to iteratively learn how to play the game 'Snake'",
+    "tools": ["Tensorflow", "Python", "Conda", "PyTorch", "Pygame"],
+    "externalUrl": "https://github.com/smiracle/snake-pytorch-experiment",
+    "repoUrl": "https://github.com/smiracle/snake-pytorch-experiment"
+  },
+  {
+    "type": "app",
+    "title": "D&D Search",
+    "year": "2022",
+    "description": "Search web app for a tabletop game with a responsive UI",
+    "tools": ["TypeScript", "React", "Netlify"],
+    "externalUrl": "https://react-dungeons-and-dragons.netlify.app/",
+    "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
+  },
+  {
+    "type": "tool",
+    "title": "Price Charting Web Scraper",
+    "year": "2023",
+    "description": "Web scraper that gathers video game pricing data",
+    "tools": ["Python", "Selenium"],
+    "externalUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/",
+    "repoUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/"
+  },
+  {
+    "type": "tool",
+    "title": "Todo List",
+    "year": "2022",
+    "description": "Persistent todo list",
+    "tools": ["Express JS", "MongoDB", "AWS"],
+    "externalUrl": "http://todolist-dev.us-west-1.elasticbeanstalk.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
+  },
+  {
+    "type": "tool",
+    "title": "Workflow Ticket App",
+    "year": "2022",
+    "description": "Ticket system front-end for task management",
+    "tools": ["TypeScript", "React", "Heroku"],
+    "externalUrl": "https://miracle-react-ticket-app.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
+  },
+  {
+    "type": "tool",
+    "title": "Password API",
+    "year": "2022",
+    "description": "Azure hosted app + API + database",
+    "tools": [".Net Core", "SQL", "Azure", "Heroku"],
+    "externalUrl": "https://morning-basin-44332.herokuapp.com/",
+    "repoUrl": "https://bitbucket.org/smiracle/miracle-web-api/src/master/"
+  },
+  {
+    "type": "game",
+    "title": "Mr. Bigly",
+    "year": "2021",
+    "description": "Roguelike created in 1 week for game jam",
+    "imgUrl": "../project-images/MrBigly.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/mr.-bigly/src/master/",
+    "itchUrl": "https://stemir.itch.io/mr-bigly"
+  },
+  {
+    "type": "game",
+    "title": "One Second",
+    "year": "2019",
+    "description": "Platformer created in 36 hours for game jam",
+    "imgUrl": "../project-images/OneSecond.png",
+    "tools": ["Unity", "Gimp"],
+    "repoUrl": "https://bitbucket.org/smiracle/onlyonesecond",
+    "itchUrl": "https://stemir.itch.io/one-second",
+    "youtubeUrl": "https://youtu.be/Mgl3LUjX77A"
+  },
+  {
+    "type": "game",
+    "title": "Warhound",
+    "year": "2018",
+    "description": "Top-down 2D shooter",
+    "imgUrl": "../project-images/Warhound.png",
+    "tools": ["Unity", "Gimp", "PixiTracker", "Bfxr"],
+    "repoUrl": "https://bitbucket.org/smiracle/warhound",
+    "itchUrl": "https://stemir.itch.io/warhound",
+    "youtubeUrl": "https://youtu.be/2BgkftRvohA"
+  },
+  {
+    "type": "game",
+    "title": "Sauron Bowling",
+    "year": "2017",
+    "description": "Bowling & dark lord simulator",
+    "imgUrl": "../project-images/Sauron.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/sauronbowling",
+    "itchUrl": "https://stemir.itch.io/sauron-bowling?secret=7WzvHr9fDhre69kxchPuYEk4k",
+    "youtubeUrl": "https://youtu.be/gRZDv-ehmRs"
+  },
+  {
+    "type": "game",
+    "title": "Rettis",
+    "year": "2017",
+    "description": "Tetris clone",
+    "imgUrl": "../project-images/Rettis.png",
+    "tools": ["Unity", "Gimp", "Bfxr"],
+    "repoUrl": "https://bitbucket.org/smiracle/rettis",
+    "itchUrl": "https://stemir.itch.io/rettis?secret=FB9GYBw33JhbDlNOStSoZwSSk",
+    "youtubeUrl": "https://youtu.be/ru-dsgVNy0k"
+  },
+  {
+    "type": "game",
+    "title": "Block breaker",
+    "year": "2017",
+    "description": "Breakout clone",
+    "imgUrl": "../project-images/BlockBreaker.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/blockbreaker",
+    "itchUrl": "https://stemir.itch.io/blockbreaker?secret=czarLWPm890XYqTzUhawxkeDYE",
+    "youtubeUrl": "https://youtu.be/5JhqcrcCb7E"
+  },
+  {
+    "type": "game",
+    "title": "Dragonstrike",
+    "year": "2016",
+    "description": "Tilemap generation & RPG",
+    "imgUrl": "../project-images/Dragonstrike.png",
+    "tools": ["Unity", "Photoshop", "Gimp"],
+    "repoUrl": "https://bitbucket.org/smiracle/dragonstrike",
+    "youtubeUrl": "https://youtu.be/J1k-Zm45QAQ"
+  },
+  {
+    "type": "game",
+    "title": "Glitch Garden",
+    "year": "2015",
+    "description": "Plants vs. Zombies clone",
+    "imgUrl": "../project-images/GlitchGarden.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
+    "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
+    "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
+  },
+  {
+    "type": "game",
+    "title": "Lunk",
+    "year": "2016",
+    "description": "Multiplayer experiment",
+    "imgUrl": "../project-images/Lunk.png",
+    "tools": ["Unity", "Photon"],
+    "repoUrl": "https://bitbucket.org/smiracle/lunk",
+    "youtubeUrl": "https://youtu.be/2tddXyIwhvk"
+  },
+  {
+    "type": "game",
+    "title": "Fractal",
+    "year": "2015",
+    "description": "Procedural object experiment",
+    "imgUrl": "../project-images/Fractal.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/fractal",
+    "itchUrl": "https://stemir.itch.io/fractal?secret=lEse3P7sNjdv4264DKeFKYZbGg",
+    "youtubeUrl": "https://youtu.be/2GqVD5ZdkPI"
+  },
+  {
+    "type": "game",
+    "title": "Maze",
+    "year": "2015",
+    "description": "Randomly generated 3D maze",
+    "imgUrl": "../project-images/Maze.png",
+    "tools": ["Unity"],
+    "repoUrl": "https://bitbucket.org/smiracle/maze",
+    "youtubeUrl": "https://youtu.be/UZGWjkSR8gE"
+  }
+]

@@ -1,0 +1,84 @@
+[
+  {
+    "jobtitle": "Software Engineer",
+    "companyUrl": "https://www.pixelberrystudios.com",
+    "company": "Pixelberry Studios",
+    "time": "Sep 2022 - Present",
+    "bullets": [
+      "Developed a narrative game platform built with TypeScript, AWS, and React Unity WebGL, enhancing user engagement and storytelling.",
+      "Innovated feature flag management using caching in AWS Lambdas, Redux, and remote APIs, significantly improving system stability.",
+      "Spearheaded the integration of Datadog Analytics and crafted live displays using ReCharts graphs.",
+      "Revamped GitLab deployment scripts, transitioning to more efficient deployments that are reliant on git tags.",
+      "Migrated a graph database to Postgres using Express, Prisma, and SQL."
+    ]
+  },
+  {
+    "jobtitle": "Software Engineer",
+    "companyUrl": "https://www.workday.com",
+    "company": "Workday",
+    "time": "Sep 2018 - Jun 2022",
+    "bullets": [
+      "Acted as Scrum Master, contributing to the development of Workday's content management site using Docker, PHP, and MySQL.",
+      "Enhanced site functionality with new features like content audit tools, archival, and community operations.",
+      "Assembled user interfaces with React for improved feedback and search.",
+      "Optimized unit tests, reducing bugs and preventing site downtime."
+    ]
+  },
+  {
+    "jobtitle": "Software Engineer",
+    "companyUrl": "https://www.tesla.com",
+    "company": "Tesla (formerly SolarCity)",
+    "time": "Sep 2015 - Sep 2018",
+    "bullets": [
+      "Created a utility bill calculator to accurately predict customer electricity costs for anywhere in the United States, boosting customer trust and minimizing legal risks.",
+      "Redesigned a solar pricing engine, enhancing clarity and adapting to product changes with improved test coverage.",
+      "Crafted SQL queries for efficient data retrieval and object-relational mappings, optimizing database interactions.",
+      "Implemented automated tests, Splunk logging, data auditing, input validation and removed outdated dependencies.",
+      "Diagnosed and resolved issues during live production releases that preserved thousands of dollars of revenue."
+    ]
+  },
+  {
+    "jobtitle": "Software Engineer",
+    "companyUrl": "https://www.islandinsurance.com",
+    "company": "Island Insurance",
+    "time": "Jul 2014 - Oct 2015",
+    "bullets": [
+      "Developed a web portal using C# and stored procedures to retrieve customer data from over 20 insurance agencies.",
+      "Programmed responsive interfaces that display data structures derived from databases, algorithms, and callbacks."
+    ]
+  },
+  {
+    "jobtitle": "Web Application Developer",
+    "company": "Ideas Health",
+    "time": "Sep 2014 - Jul 2014",
+    "bullets": [
+      "Designed the front-end of an enterprise web application using the .NET MVC framework and JavaScript.",
+      "Constructed interfaces using controls such as grids, graphs, drop-downs, and calendars with agile workflow."
+    ]
+  },
+  {
+    "jobtitle": "Instructional Technician",
+    "companyUrl": "https://www.livermoreschools.org/",
+    "company": "Livermore School District",
+    "time": "Sep 2011 - Dec 2012",
+    "bullets": [
+      "Established a file sharing server for students across campus, resulting in renewed enthusiasm among teachers and staff."
+    ]
+  },
+  {
+    "jobtitle": "Technical Writer",
+    "company": "FileMaker",
+    "time": "Jan 2010 - Jul 2010",
+    "bullets": [
+      "Verified and documented over 40 software errors and rewrote a popular tutorial, increasing product quality."
+    ]
+  },
+  {
+    "jobtitle": "Technical Trainer / Writer",
+    "company": "Force10 Networks",
+    "time": "Oct 2008 - Jun 2009",
+    "bullets": [
+      "Taught a rigorous networking certification course to over 20 professionals and rewrote three certification exams."
+    ]
+  }
+]
