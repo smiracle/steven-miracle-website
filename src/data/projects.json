@@ -91,6 +91,16 @@
   },
   {
     "type": "game",
+    "title": "Minesweeper",
+    "year": "2024",
+    "description": "Web-based clone of Minesweeper",
+    "imgUrl": "../project-images/Minesweeper.png",
+    "tools": ["React", "Typescript", "Heroku"],
+    "repoUrl": "https://github.com/smiracle/minesweeper",
+    "externalUrl": "https://minesweeper-react-2c76f7e4ea74.herokuapp.com/"
+  },
+  {
+    "type": "game",
     "title": "Mr. Bigly",
     "year": "2021",
     "description": "Roguelike created in 1 week for game jam",
