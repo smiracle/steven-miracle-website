@@ -20,7 +20,7 @@ const Hero = () => {
                     <a className="link" href="https://www.pixelberrystudios.com/">
                       Pixelberry Studios
                     </a>
-                    , but am looking for new opportunities.
+                    , but I'm looking for new opportunities.
                   </p>
                 </div>
               );

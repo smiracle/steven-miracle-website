@@ -3,7 +3,7 @@ import pdf from "../StevenMiracleResume.pdf";
 import logo from "../assets/img/s-logo.png";
 import linkedInIcon from "../assets/img/svg-linkedin.svg";
 import bitbucketIcon from "../assets/img/svg-bitbucket-white.svg";
-import itchIcon from "../assets/img/svg-itch-white.svg";
+import githubIcon from "../assets/img/svg-github-mark-white.svg";
 import hamburgerIcon from "../assets/img/svg-hamburger.svg";
 import closeIcon from "../assets/img/svg-close.svg";
 import { HashLink } from "react-router-hash-link";
@@ -16,11 +16,11 @@ function NavBar() {
   const [activeLink, setActiveLink] = useState("home");
   const scrollDirection = UseScrollDirection("down");
   const [isScrolledToTop, setIsScrolledToTop] = useState(true);
-  const navIcons = [linkedInIcon, bitbucketIcon, itchIcon];
+  const navIcons = [linkedInIcon, bitbucketIcon, githubIcon];
   const socialUrls = [
     "https://www.linkedin.com/in/steven-miracle/",
-    "https://bitbucket.org/smiracle/",
-    "https://stemir.itch.io/",
+    "https://bitbucket.org/smiracle/workspace/repositories/",
+    "https://github.com/smiracle?tab=repositories",
   ];
   const handleHamburgerClick = () => {
     setIsSidebarOpen(!isSidebarOpen);
@@ -103,11 +103,7 @@ function NavBar() {
                     <li key={index}>
                       <a
                         href={navLink.url}
-                        className={
-                          activeLink === navLink.name
-                            ? "active navbar-link"
-                            : "navbar-link"
-                        }
+                        className={activeLink === navLink.name ? "active navbar-link" : "navbar-link"}
                         onClick={() => onUpdateActiveLink(navLink.name)}
                       >
                         {navLink.name}
@@ -136,17 +132,11 @@ function NavBar() {
               <button className="navbar-toggler" onClick={handleHamburgerClick}>
                 <img
                   src={isSidebarOpen ? closeIcon : hamburgerIcon}
-                  className={
-                    isSidebarOpen
-                      ? "hamburger filter-orange"
-                      : "hamburger filter-white"
-                  }
+                  className={isSidebarOpen ? "hamburger filter-orange" : "hamburger filter-white"}
                   alt="hamburger"
                 />
               </button>
-              <aside
-                className={isSidebarOpen ? "nav-sidebar" : "nav-sidebar-hide"}
-              >
+              <aside className={isSidebarOpen ? "nav-sidebar" : "nav-sidebar-hide"}>
                 <nav className="nav-sidebar-inner">
                   <ol>
                     {navLinks.map((navLink, index) => {
@@ -154,11 +144,7 @@ function NavBar() {
                         <li key={index}>
                           <a
                             href={navLink.url}
-                            className={
-                              activeLink === navLink.name
-                                ? "active navbar-link"
-                                : "navbar-link"
-                            }
+                            className={activeLink === navLink.name ? "active navbar-link" : "navbar-link"}
                             onClick={() => onUpdateActiveLink(navLink.name)}
                           >
                             {navLink.name}
@@ -168,14 +154,8 @@ function NavBar() {
                     })}
                   </ol>
                   <HashLink to={pdf} target="_blank" className="navbar-text">
-                    <button
-                      className="navbar-resume-button"
-                      style={{ padding: "16px 32px", marginRight: "24px" }}
-                    >
-                      <span
-                        className="sidebar-resume-link"
-                        style={{ fontSize: "20px" }}
-                      >
+                    <button className="navbar-resume-button" style={{ padding: "16px 32px", marginRight: "24px" }}>
+                      <span className="sidebar-resume-link" style={{ fontSize: "20px" }}>
                         Resume
                       </span>
                     </button>
