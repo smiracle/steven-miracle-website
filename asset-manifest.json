@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4dac7f85.css",
-    "main.js": "/static/js/main.6bbdbd2d.js",
-    "static/media/StevenMiracleResume.pdf": "/static/media/StevenMiracleResume.4b23bca0a4698e741105.pdf",
+    "main.js": "/static/js/main.5d6104a2.js",
+    "static/media/StevenMiracleResume.pdf": "/static/media/StevenMiracleResume.ae04e9d12ff432dab0ea.pdf",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/me.jpg": "/static/media/me.0faa72a709bed75422b1.jpg",
@@ -15,16 +15,17 @@
     "static/media/svg-itch-white.svg": "/static/media/svg-itch-white.00f291392dff41595e3d55568d406f9d.svg",
     "static/media/svg-itch.svg": "/static/media/svg-itch.61ee8aea6ac19c91364d897b165e45b9.svg",
     "static/media/svg-youtube.svg": "/static/media/svg-youtube.ded492c9dee2c17b04b7a847ae8dc85c.svg",
+    "static/media/svg-github-mark-white.svg": "/static/media/svg-github-mark-white.97ed8e7eef60d61ca469881dd6f34511.svg",
     "static/media/svg-bitbucket-white.svg": "/static/media/svg-bitbucket-white.eb1a2ed713690b15ae6bcf4adafe69d1.svg",
     "index.html": "/index.html",
     "static/media/svg-close.svg": "/static/media/svg-close.43acac53cb85a6489dbf8cf3109f8021.svg",
     "static/media/svg-linkedin.svg": "/static/media/svg-linkedin.4637f65bae0d602f0286153f10e0de9c.svg",
     "static/media/svg-external.svg": "/static/media/svg-external.6c0c9502411f959ddcd826c0eefef896.svg",
     "main.4dac7f85.css.map": "/static/css/main.4dac7f85.css.map",
-    "main.6bbdbd2d.js.map": "/static/js/main.6bbdbd2d.js.map"
+    "main.5d6104a2.js.map": "/static/js/main.5d6104a2.js.map"
   },
   "entrypoints": [
     "static/css/main.4dac7f85.css",
-    "static/js/main.6bbdbd2d.js"
+    "static/js/main.5d6104a2.js"
   ]
 }
