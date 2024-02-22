@@ -669,7 +669,7 @@ span.navbar-text {
   margin-right: 8px;
 }
 .proj-year-and-desc {
-  color: #cbcfc9;
+  color: white;
   line-height: 2;
 }
 .proj-grid {
@@ -681,7 +681,7 @@ span.navbar-text {
   position: relative;
 }
 .proj-card {
-  background-color: #3b3d40;
+  background-color: #444;
   height: 300px;
   width: 300px;
   flex-direction: column;
@@ -690,7 +690,7 @@ span.navbar-text {
   padding: 2rem 1.75rem;
   border-radius: 5px;
   overflow: auto;
-  box-shadow: 10px #666;
+  box-shadow: 10px #111;
   display: flex;
 }
 .proj-card-outer-link {

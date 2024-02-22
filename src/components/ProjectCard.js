@@ -15,7 +15,7 @@ const ProjectCard = ({ title, year, description, imgUrl, tools, externalUrl, rep
     return className;
   }
   const handleCardClick = (e) => {
-    const url = externalUrl || itchUrl;
+    const url = externalUrl || itchUrl || youtubeUrl || repoUrl;
     if (url) {
       window.open(url, "_blank");
     }

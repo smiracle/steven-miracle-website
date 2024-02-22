@@ -22,7 +22,9 @@ function Footer() {
             );
           })}
         </div>
-        <div className="footer-text">Designed & Built by Steven Miracle</div>
+        <div className="footer-text">
+          <a href="https://github.com/smiracle/steven-miracle-website">Designed & Built by Steven Miracle</a>
+        </div>
       </footer>
     </div>
   );

@@ -1,19 +1,24 @@
 import { useState } from "react";
-import "animate.css";
-
 const ProjectLink = ({ src, url, alt }) => {
   const [isHovered, setIsHovered] = useState(false);
 
+  const handleClick = (e) => {
+    // Stop the click event from bubbling up to the parent
+    e.stopPropagation();
+    // Open the project link's url
+    window.open(url, "_blank");
+  };
+
   return (
-    <a href={url} className="proj-link">
+    <div onClick={handleClick} className="proj-link" style={{ cursor: "pointer" }}>
       <img
         alt={alt}
         src={src}
         className={isHovered ? "proj-svg-orange" : "proj-svg-white"}
-        onMouseEnter={(e) => setIsHovered(true)}
-        onMouseLeave={(e) => setIsHovered(false)}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       />
-    </a>
+    </div>
   );
 };
 
