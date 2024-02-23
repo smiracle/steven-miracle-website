@@ -37,7 +37,8 @@ const Projects = () => {
                   <h3 id="projects">Projects</h3>
                   <p>
                     Here's some of the projects I put together in my spare time to help demonstrate what I'm capable of
-                    and what my interests are.
+                    and what my interests are. Please excuse the initial loadtimes for Heroku apps, since it takes a
+                    second to spin up those hosted servers.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5" id="pills-tab" defaultActiveKey="first">

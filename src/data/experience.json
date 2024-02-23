@@ -5,11 +5,11 @@
     "company": "Pixelberry Studios",
     "time": "Sep 2022 - Present",
     "bullets": [
-      "Developed a narrative game platform built with TypeScript, AWS, and React Unity WebGL, enhancing user engagement and storytelling.",
-      "Innovated feature flag management using caching in AWS Lambdas, Redux, and remote APIs, significantly improving system stability.",
-      "Spearheaded the integration of Datadog Analytics and crafted live displays using ReCharts graphs.",
-      "Revamped GitLab deployment scripts, transitioning to more efficient deployments that are reliant on git tags.",
-      "Migrated a graph database to Postgres using Express, Prisma, and SQL."
+      "Developed a flagship web game platform built with React, TypeScript and AWS that drove company revenue and customer experience.",
+      "Deployed Express and GraphQL APIs and rewrote CI/CD scripts that improved modularity and reduced average site load times by seconds.",
+      "Innovated new features such as user revenue visualization, using libraries like Redux and Recharts that resulted in greater customer retention.",
+      "Spearheaded the integration of Datadog web analytics with cloud-based systems and front end user interactions that led to better team decisions.",
+      "Innovated feature flag management using caching in AWS Lambdas, Redux, and remote APIs, significantly improving system stability."
     ]
   },
   {
@@ -18,10 +18,10 @@
     "company": "Workday",
     "time": "Sep 2018 - Jun 2022",
     "bullets": [
-      "Acted as Scrum Master, contributing to the development of Workday's content management site using Docker, PHP, and MySQL.",
-      "Enhanced site functionality with new features like content audit tools, archival, and community operations.",
-      "Assembled user interfaces with React for improved feedback and search.",
-      "Optimized unit tests, reducing bugs and preventing site downtime."
+      "Led teams as a Scrum Master, contributing to the agile development of Workday's SaaS community site using Docker, PHP, and MySQL.",
+      "Collaborated with product managers and UX designers to produce a modern UI/UX using React that increased revenue and engagement.",
+      "Enhanced site functionality and security with new features including content audit tools, archival, and community operations.",
+      "Optimized unit and integration tests and included documentation, reducing bugs and preventing product downtime at release."
     ]
   },
   {
@@ -30,10 +30,9 @@
     "company": "Tesla (formerly SolarCity)",
     "time": "Sep 2015 - Sep 2018",
     "bullets": [
-      "Created a utility bill calculator to accurately predict customer electricity costs for anywhere in the United States, boosting customer trust and minimizing legal risks.",
-      "Redesigned a solar pricing engine, enhancing clarity and adapting to product changes with improved test coverage.",
-      "Crafted SQL queries for efficient data retrieval and object-relational mappings, optimizing database interactions.",
-      "Implemented automated tests, Splunk logging, data auditing, input validation and removed outdated dependencies.",
+      "Refactored a solar pricing engine and brought it under a unit test harness, leading to improved reliability, scalability, and performance.",
+      "Created a utility bill calculator to accurately predict customer electricity costs anywhere in the United States, boosting customer trust and minimizing legal risks.",
+      "Crafted SQL queries for efficient data retrieval and object-relational mappings that optimized site load times.",
       "Diagnosed and resolved issues during live production releases that preserved thousands of dollars of revenue."
     ]
   },

@@ -16,7 +16,8 @@
     "description": "Android app for real video game price lookup",
     "imgUrl": "../project-images/GameCollectReact.png",
     "tools": ["React Native", "Typescript"],
-    "externalUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/",
+    "externalUrl": "https://www.upload-apk.com/eaLLN1xDtY4VwUU",
+    "youtubeUrl": "https://youtu.be/tP6vZUNlBRM",
     "repoUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/"
   },
   {
@@ -88,15 +89,6 @@
     "tools": ["TypeScript", "React", "Heroku"],
     "externalUrl": "https://miracle-react-ticket-app.herokuapp.com/",
     "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
-  },
-  {
-    "type": "tool",
-    "title": "Password API",
-    "year": "2022",
-    "description": "Azure hosted app + API + database",
-    "tools": [".Net Core", "SQL", "Azure", "Heroku"],
-    "externalUrl": "https://morning-basin-44332.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/miracle-web-api/src/master/"
   },
   {
     "type": "game",
