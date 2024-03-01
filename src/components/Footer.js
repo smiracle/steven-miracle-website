@@ -1,15 +1,7 @@
-import linkedInIcon from "../assets/img/svg-linkedin.svg";
-import bitbucketIcon from "../assets/img/svg-bitbucket-white.svg";
-import itchIcon from "../assets/img/svg-itch-white.svg";
+import { socialUrls } from "./NavBar";
+import { navIcons } from "./NavBar";
 
 function Footer() {
-  const navIcons = [linkedInIcon, bitbucketIcon, itchIcon];
-  const socialUrls = [
-    "https://www.linkedin.com/in/steven-miracle/",
-    "https://bitbucket.org/smiracle/",
-    "https://stemir.itch.io/",
-  ];
-
   return (
     <div className="footer-outer">
       <footer className="footer">

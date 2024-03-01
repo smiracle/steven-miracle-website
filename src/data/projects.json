@@ -7,12 +7,13 @@
     "imgUrl": "../project-images/FakeShop.png",
     "tools": ["React", "Express JS", "MongoDB", "Redux", "Heroku"],
     "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
+    "youtubeUrl": "https://youtu.be/hXMhZcbz9vY",
     "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
   },
   {
     "type": "app",
     "title": "Video Game Price Lookup",
-    "year": "2022",
+    "year": "2023",
     "description": "Android app for real video game price lookup",
     "imgUrl": "../project-images/GameCollectReact.png",
     "tools": ["React Native", "Typescript"],
@@ -27,6 +28,7 @@
     "description": "Input the names of two people or characters to start a conversation",
     "imgUrl": "../project-images/InfiniteChatbot.png",
     "tools": ["GPT-3", "Open AI API", "Typescript", "Express", "Heroku"],
+    "youtubeUrl": "https://youtu.be/c-XNTeXzHqk",
     "externalUrl": "https://infinite-chatbot-e0f61aa19e07.herokuapp.com/",
     "repoUrl": "https://github.com/smiracle/chatgpt-experiment"
   },
@@ -34,7 +36,7 @@
     "type": "app",
     "title": "E-Movies",
     "year": "2022",
-    "description": "E-commerce site for movies, uses fake SQL data, hosted and deployed by Azure",
+    "description": "E-commerce site for movies, uses fake SQL data, hosted by Azure",
     "imgUrl": "../project-images/EMovies.png",
     "tools": [".Net", "SQL", "Azure"],
     "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/",
@@ -47,7 +49,7 @@
     "description": "ML app that uses reinforcement to iteratively learn how to play the game 'Snake'",
     "imgUrl": "../project-images/Snake.png",
     "tools": ["Tensorflow", "Python", "Conda", "PyTorch", "Pygame"],
-    "externalUrl": "https://github.com/smiracle/snake-pytorch-experiment",
+    "youtubeUrl": "https://youtu.be/5Dgjxb39j1o",
     "repoUrl": "https://github.com/smiracle/snake-pytorch-experiment"
   },
   {
@@ -62,12 +64,20 @@
   },
   {
     "type": "tool",
+    "title": "Interview Questions App",
+    "year": "2024",
+    "description": "Android app for studying technical questions (WIP)",
+    "imgUrl": "../project-images/InterviewQuestions.png",
+    "tools": ["TypeScript", "React Native", "Node", "Python", "Shell"],
+    "repoUrl": "https://github.com/smiracle/interview-questions"
+  },
+  {
+    "type": "tool",
     "title": "Price Charting Web Scraper",
     "year": "2023",
     "description": "Web scraper that gathers video game pricing data",
     "imgUrl": "../project-images/PriceChartingScraper.png",
     "tools": ["Python", "Selenium"],
-    "externalUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/",
     "repoUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/"
   },
   {

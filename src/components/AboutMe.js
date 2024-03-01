@@ -24,7 +24,7 @@ const AboutMe = () => {
                         turns out moving objects around a map is a good way to learn about object-oriented programming.
                       </p>
                       <p>
-                        My experiences range from developing a visual novel platform at a gaming studio to enhancing
+                        My experiences range from developing a cloud gaming platform at Pixelberry to enhancing
                         Tesla.com. I've contributed to software for solar panel energy cost calculations nationwide,
                         developed a content management system for a major HR and finance corporation, and built an
                         insurance agency web portal. My work has also extended to an enterprise-scale healthcare
@@ -36,15 +36,13 @@ const AboutMe = () => {
                         find most compelling. In my spare time I enjoy game development and participating in game jams
                         for fun and challenge.
                       </p>
-                      <p>Here are a few technologies I’ve been working with recently:</p>
+                      <p>Here are a few technologies I've been working with recently:</p>
                       <ul className="about-list">
                         <li>TypeScript</li>
                         <li>React</li>
-                        <li>.NET Core and C#</li>
                         <li>Postgres</li>
                         <li>Express</li>
                         <li>Elastic Beanstalk</li>
-                        <li>Azure</li>
                         <li>Docker</li>
                       </ul>
                     </Col>

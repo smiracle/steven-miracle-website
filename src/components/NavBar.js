@@ -11,17 +11,20 @@ import { BrowserRouter as Router } from "react-router-dom";
 import UseOnClickOutside from "./UseOnClickOutside";
 import UseScrollDirection from "./UseScrollDirection";
 
+export const navIcons = [linkedInIcon, bitbucketIcon, githubIcon];
+
+export const socialUrls = [
+  "https://www.linkedin.com/in/steven-miracle/",
+  "https://bitbucket.org/smiracle/workspace/repositories/",
+  "https://github.com/smiracle?tab=repositories",
+];
+
 function NavBar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [activeLink, setActiveLink] = useState("home");
   const scrollDirection = UseScrollDirection("down");
   const [isScrolledToTop, setIsScrolledToTop] = useState(true);
-  const navIcons = [linkedInIcon, bitbucketIcon, githubIcon];
-  const socialUrls = [
-    "https://www.linkedin.com/in/steven-miracle/",
-    "https://bitbucket.org/smiracle/workspace/repositories/",
-    "https://github.com/smiracle?tab=repositories",
-  ];
+
   const handleHamburgerClick = () => {
     setIsSidebarOpen(!isSidebarOpen);
   };
