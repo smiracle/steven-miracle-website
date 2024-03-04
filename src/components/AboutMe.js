@@ -33,8 +33,7 @@ const AboutMe = () => {
                       </p>
                       <p>
                         Currently my focus is on refining and broadening my expertise, particularly with technologies I
-                        find most compelling. In my spare time I enjoy game development and participating in game jams
-                        for fun and challenge.
+                        find most compelling.
                       </p>
                       <p>Here are a few technologies I've been working with recently:</p>
                       <ul className="about-list">

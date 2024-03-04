@@ -13,14 +13,14 @@ const Hero = () => {
                 <div className={isVisible ? "animate__animated animate__fadeInDown" : ""}>
                   <span className="tagline">Hi, my name is</span>
                   <h1>{`Steven Miracle.`}</h1>
-                  <h1 className="txt-rotate-header">I'm a Full-Stack Developer.</h1>
+                  <h1 className="txt-rotate-header">I'm a Full Stack Developer.</h1>
                   <p className="tagline-white">
                     I specialize in developing responsive user interfaces and enterprise-scale web services. I'm
                     currently at{" "}
                     <a className="link" href="https://www.pixelberrystudios.com/">
                       Pixelberry Studios
                     </a>
-                    , but I'm looking for new opportunities.
+                    and I'm looking for new opportunities.
                   </p>
                 </div>
               );
