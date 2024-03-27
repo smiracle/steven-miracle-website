@@ -113,13 +113,13 @@
   },
   {
     "type": "game",
-    "title": "Mr. Bigly",
+    "title": "Blunky",
     "year": "2021",
     "description": "Roguelike created in 1 week for game jam",
-    "imgUrl": "../project-images/MrBigly.png",
+    "imgUrl": "../project-images/Blunky.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/mr.-bigly/src/master/",
-    "itchUrl": "https://stemir.itch.io/mr-bigly"
+    "repoUrl": "https://bitbucket.org/smiracle/blunky/src/master/",
+    "itchUrl": "https://stemir.itch.io/blunky"
   },
   {
     "type": "game",
