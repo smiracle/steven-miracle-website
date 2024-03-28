@@ -36,9 +36,10 @@ const Projects = () => {
                 <Col>
                   <h3 id="projects">Projects</h3>
                   <p>
-                    Here's some of the projects I put together in my spare time to help demonstrate what I'm capable of
-                    and what my interests are. Please excuse the initial loadtimes for Heroku apps, since it takes time
-                    to spin up externally hosted resources.
+                    Here's some of the projects that I put together in my spare time to help demonstrate what I'm
+                    capable of and what my interests are. Icons on each project card may redirect you to live
+                    deployments, code repositories, Android APKs, and YouTube demos. Please excuse the initial loadtimes
+                    for Heroku apps, since it takes time to spin up externally hosted resources.
                   </p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5" id="pills-tab" defaultActiveKey="first">

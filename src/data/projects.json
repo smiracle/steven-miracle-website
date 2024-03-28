@@ -8,7 +8,7 @@
     "tools": ["React", "Express JS", "MongoDB", "Redux", "Heroku"],
     "externalUrl": "https://stevens-fake-shop.herokuapp.com/",
     "youtubeUrl": "https://youtu.be/hXMhZcbz9vY",
-    "repoUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/stevens-fake-shop/src/master/"
   },
   {
     "type": "app",
@@ -17,9 +17,9 @@
     "description": "Android app for real video game price lookup",
     "imgUrl": "../project-images/GameCollectReact.png",
     "tools": ["React Native", "Typescript"],
-    "externalUrl": "https://www.upload-apk.com/eaLLN1xDtY4VwUU",
+    "androidUrl": "https://www.upload-apk.com/eaLLN1xDtY4VwUU",
     "youtubeUrl": "https://youtu.be/tP6vZUNlBRM",
-    "repoUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/gamecollectreact/src/master/GameCollectReact/"
   },
   {
     "type": "app",
@@ -30,7 +30,7 @@
     "tools": ["GPT-3", "Open AI API", "Typescript", "Express", "Heroku"],
     "youtubeUrl": "https://youtu.be/c-XNTeXzHqk",
     "externalUrl": "https://infinite-chatbot-e0f61aa19e07.herokuapp.com/",
-    "repoUrl": "https://github.com/smiracle/chatgpt-experiment"
+    "githubUrl": "https://github.com/smiracle/chatgpt-experiment"
   },
   {
     "type": "app",
@@ -39,7 +39,7 @@
     "description": "E-commerce site for movies, uses fake SQL data, hosted by Azure",
     "imgUrl": "../project-images/EMovies.png",
     "tools": [".Net", "SQL", "Azure"],
-    "repoUrl": "https://bitbucket.org/smiracle/emovies/src/master/",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/emovies/src/master/",
     "youtubeUrl": "https://youtu.be/WdsQtkx8Ue4"
   },
   {
@@ -50,7 +50,7 @@
     "imgUrl": "../project-images/Snake.png",
     "tools": ["Tensorflow", "Python", "Conda", "PyTorch", "Pygame"],
     "youtubeUrl": "https://youtu.be/5Dgjxb39j1o",
-    "repoUrl": "https://github.com/smiracle/snake-pytorch-experiment"
+    "githubUrl": "https://github.com/smiracle/snake-pytorch-experiment"
   },
   {
     "type": "app",
@@ -60,7 +60,7 @@
     "imgUrl": "../project-images/DnDSearch.png",
     "tools": ["TypeScript", "React", "Netlify"],
     "externalUrl": "https://react-dungeons-and-dragons.netlify.app/",
-    "repoUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/reactdndapp/src/master/"
   },
   {
     "type": "tool",
@@ -69,8 +69,8 @@
     "description": "Android app for studying technical questions (WIP)",
     "imgUrl": "../project-images/InterviewQuestions.png",
     "tools": ["TypeScript", "React Native", "Node", "Python", "Shell"],
-    "externalUrl": "https://upload-apk.com/en/lJ1SUWaZS7urQaY",
-    "repoUrl": "https://github.com/smiracle/interview-questions"
+    "androidUrl": "https://upload-apk.com/en/lJ1SUWaZS7urQaY",
+    "githubUrl": "https://github.com/smiracle/interview-questions"
   },
   {
     "type": "tool",
@@ -79,7 +79,7 @@
     "description": "Web scraper that gathers video game pricing data",
     "imgUrl": "../project-images/PriceChartingScraper.png",
     "tools": ["Python", "Selenium"],
-    "repoUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/pricechartingscrapertool/src/master/"
   },
   {
     "type": "tool",
@@ -89,7 +89,7 @@
     "imgUrl": "../project-images/TodoList.png",
     "tools": ["Express JS", "MongoDB", "Heroku"],
     "externalUrl": "https://calm-cliffs-84232.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/todo-list/src/master/"
   },
   {
     "type": "tool",
@@ -99,7 +99,7 @@
     "imgUrl": "../project-images/Tickets.png",
     "tools": ["TypeScript", "React", "Heroku"],
     "externalUrl": "https://miracle-react-ticket-app.herokuapp.com/",
-    "repoUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
+    "bitbucketUrl": "https://bitbucket.org/smiracle/reacttickets/src/master/"
   },
   {
     "type": "game",
@@ -108,7 +108,7 @@
     "description": "Web-based clone of Minesweeper",
     "imgUrl": "../project-images/Minesweeper.png",
     "tools": ["React", "Typescript", "Heroku"],
-    "repoUrl": "https://github.com/smiracle/minesweeper",
+    "githubUrl": "https://github.com/smiracle/minesweeper",
     "externalUrl": "https://minesweeper-react-2c76f7e4ea74.herokuapp.com/"
   },
   {
@@ -118,7 +118,7 @@
     "description": "Roguelike created in 1 week for game jam",
     "imgUrl": "../project-images/Blunky.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/blunky/src/master/",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/blunky/src/master/",
     "itchUrl": "https://stemir.itch.io/blunky"
   },
   {
@@ -128,7 +128,7 @@
     "description": "Platformer created in 36 hours for game jam",
     "imgUrl": "../project-images/OneSecond.png",
     "tools": ["Unity", "Gimp"],
-    "repoUrl": "https://bitbucket.org/smiracle/onlyonesecond",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/onlyonesecond",
     "itchUrl": "https://stemir.itch.io/one-second",
     "youtubeUrl": "https://youtu.be/Mgl3LUjX77A"
   },
@@ -139,7 +139,7 @@
     "description": "Top-down 2D shooter",
     "imgUrl": "../project-images/Warhound.png",
     "tools": ["Unity", "Gimp", "PixiTracker", "Bfxr"],
-    "repoUrl": "https://bitbucket.org/smiracle/warhound",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/warhound",
     "itchUrl": "https://stemir.itch.io/warhound",
     "youtubeUrl": "https://youtu.be/2BgkftRvohA"
   },
@@ -150,7 +150,7 @@
     "description": "Bowling & dark lord simulator",
     "imgUrl": "../project-images/Sauron.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/sauronbowling",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/sauronbowling",
     "itchUrl": "https://stemir.itch.io/sauron-bowling?secret=7WzvHr9fDhre69kxchPuYEk4k",
     "youtubeUrl": "https://youtu.be/gRZDv-ehmRs"
   },
@@ -161,7 +161,7 @@
     "description": "Tetris clone",
     "imgUrl": "../project-images/Rettis.png",
     "tools": ["Unity", "Gimp", "Bfxr"],
-    "repoUrl": "https://bitbucket.org/smiracle/rettis",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/rettis",
     "itchUrl": "https://stemir.itch.io/rettis?secret=FB9GYBw33JhbDlNOStSoZwSSk",
     "youtubeUrl": "https://youtu.be/ru-dsgVNy0k"
   },
@@ -172,7 +172,7 @@
     "description": "Breakout clone",
     "imgUrl": "../project-images/BlockBreaker.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/blockbreaker",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/blockbreaker",
     "itchUrl": "https://stemir.itch.io/blockbreaker?secret=czarLWPm890XYqTzUhawxkeDYE",
     "youtubeUrl": "https://youtu.be/5JhqcrcCb7E"
   },
@@ -183,7 +183,7 @@
     "description": "Tilemap generation & RPG",
     "imgUrl": "../project-images/Dragonstrike.png",
     "tools": ["Unity", "Photoshop", "Gimp"],
-    "repoUrl": "https://bitbucket.org/smiracle/dragonstrike",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/dragonstrike",
     "youtubeUrl": "https://youtu.be/J1k-Zm45QAQ"
   },
   {
@@ -193,7 +193,7 @@
     "description": "Plants vs. Zombies clone",
     "imgUrl": "../project-images/GlitchGarden.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/glitchgarden/overview",
     "itchUrl": "https://stemir.itch.io/glitchgarden?secret=JLn6emYcrlCe6BCbFfnI0SUj4OI",
     "youtubeUrl": "https://youtu.be/oUuOfgVKnrc"
   },
@@ -204,7 +204,7 @@
     "description": "Multiplayer experiment",
     "imgUrl": "../project-images/Lunk.png",
     "tools": ["Unity", "Photon"],
-    "repoUrl": "https://bitbucket.org/smiracle/lunk",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/lunk",
     "youtubeUrl": "https://youtu.be/2tddXyIwhvk"
   },
   {
@@ -214,7 +214,7 @@
     "description": "Procedural object experiment",
     "imgUrl": "../project-images/Fractal.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/fractal",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/fractal",
     "itchUrl": "https://stemir.itch.io/fractal?secret=lEse3P7sNjdv4264DKeFKYZbGg",
     "youtubeUrl": "https://youtu.be/2GqVD5ZdkPI"
   },
@@ -225,7 +225,7 @@
     "description": "Randomly generated 3D maze",
     "imgUrl": "../project-images/Maze.png",
     "tools": ["Unity"],
-    "repoUrl": "https://bitbucket.org/smiracle/maze",
+    "bitbucketUrl": "https://bitbucket.org/smiracle/maze",
     "youtubeUrl": "https://youtu.be/UZGWjkSR8gE"
   }
 ]

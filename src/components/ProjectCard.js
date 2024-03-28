@@ -2,11 +2,27 @@ import { useState } from "react";
 import "animate.css";
 import ProjectLink from "./ProjectLink.js";
 import gitIcon from "../assets/img/svg-git.svg";
+import githubIcon from "../assets/img/svg-github.svg";
+import bitbucketIcon from "../assets/img/svg-bitbucket3.svg";
+import androidIcon from "../assets/img/svg-android2.svg";
 import youtubeIcon from "../assets/img/svg-youtube.svg";
 import externalIcon from "../assets/img/svg-external.svg";
 import itchIcon from "../assets/img/svg-itch.svg";
 
-const ProjectCard = ({ title, year, description, imgUrl, tools, externalUrl, repoUrl, itchUrl, youtubeUrl }) => {
+const ProjectCard = ({
+  title,
+  year,
+  description,
+  imgUrl,
+  tools,
+  externalUrl,
+  repoUrl,
+  githubUrl,
+  bitbucketUrl,
+  androidUrl,
+  itchUrl,
+  youtubeUrl,
+}) => {
   const [isHovered, setIsHovered] = useState(false);
 
   function getClassName() {
@@ -15,7 +31,7 @@ const ProjectCard = ({ title, year, description, imgUrl, tools, externalUrl, rep
     return className;
   }
   const handleCardClick = (e) => {
-    const url = externalUrl || itchUrl || youtubeUrl || repoUrl;
+    const url = externalUrl || itchUrl || youtubeUrl || repoUrl || githubUrl || bitbucketUrl || androidUrl;
     if (url) {
       window.open(url, "_blank");
     }
@@ -33,8 +49,22 @@ const ProjectCard = ({ title, year, description, imgUrl, tools, externalUrl, rep
         <div className="proj-top">
           <div className="proj-links">
             {externalUrl && <ProjectLink src={externalIcon} url={externalUrl} alt="external link" />}
+            {androidUrl && (
+              <ProjectLink src={androidIcon} url={androidUrl} alt="android apk link" data-id="android-link" />
+            )}
             {itchUrl && <ProjectLink src={itchIcon} url={itchUrl} alt="itch.io link" />}
             {repoUrl && <ProjectLink src={gitIcon} url={repoUrl} alt="code repository link" data-id="git-link" />}
+            {githubUrl && (
+              <ProjectLink src={githubIcon} url={githubUrl} alt="github repository link" data-id="github-link" />
+            )}
+            {bitbucketUrl && (
+              <ProjectLink
+                src={bitbucketIcon}
+                url={bitbucketUrl}
+                alt="bitbucket repository link"
+                data-id="bitbucket-link"
+              />
+            )}
             {youtubeUrl && <ProjectLink src={youtubeIcon} url={youtubeUrl} alt="youtube link" />}
           </div>
         </div>
