@@ -35,14 +35,14 @@ const AboutMe = () => {
                         Currently my focus is on refining and broadening my expertise, particularly with technologies I
                         find most compelling.
                       </p>
-                      <p>Here are a few technologies I've been working with recently:</p>
+                      <p>Here are a few technologies I've been learning about recently:</p>
                       <ul className="about-list">
                         <li>TypeScript</li>
                         <li>React</li>
                         <li>Postgres</li>
-                        <li>Express</li>
-                        <li>Elastic Beanstalk</li>
+                        <li>Express.js</li>
                         <li>Docker</li>
+                        <li>Tailwind</li>
                       </ul>
                     </Col>
 
