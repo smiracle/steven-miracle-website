@@ -24,28 +24,24 @@ const AboutMe = () => {
                         turns out moving objects around a map is a good way to learn about object-oriented programming.
                       </p>
                       <p>
-                        My experiences range from developing a cloud gaming platform at Pixelberry to enhancing
-                        Tesla.com. I've contributed to software for solar panel energy cost calculations nationwide,
-                        developed a content management system for a major HR and finance corporation, and built an
-                        insurance agency web portal. My work has also extended to an enterprise-scale healthcare
-                        application at a startup, technical documentation at an Apple subsidiary, and leading training
-                        courses at a network hardware company.
+                        My experiences range from developing a cloud gaming platform at Pixelberry Studios to pushing
+                        code to tesla.com. I've developed software for solar panel energy cost calculations nationwide,
+                        a content management system for a major HR and finance corporation, and an insurance agency web
+                        portal. My work has also extended to an enterprise-scale healthcare application at a startup,
+                        technical documentation at an Apple subsidiary, and leading protocol training courses at a
+                        network hardware company.
                       </p>
-                      <p>
-                        Currently my focus is on refining and broadening my expertise, particularly with technologies I
-                        find most compelling.
-                      </p>
+                      <p>My focus right now is on refining and broadening my knowledge and skills.</p>
                       <p>Here are a few technologies I've been learning about recently:</p>
                       <ul className="about-list">
                         <li>TypeScript</li>
                         <li>React</li>
                         <li>Postgres</li>
-                        <li>Express.js</li>
+                        <li>GraphQL</li>
                         <li>Docker</li>
                         <li>Tailwind</li>
                       </ul>
                     </Col>
-
                     <Col md={4} xs={12}>
                       <img src={me} alt="me" className="img-me" />
                     </Col>

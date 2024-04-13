@@ -15,12 +15,11 @@ const Hero = () => {
                   <h1>{`Steven Miracle.`}</h1>
                   <h1 className="txt-rotate-header">I'm a Full Stack Developer.</h1>
                   <p className="tagline-white">
-                    I specialize in developing responsive user interfaces and scalable web services. I recently had a
-                    great experience collaborating with folks from{" "}
-                    <a className="link" href="https://www.pixelberrystudios.com/">
-                      Pixelberry Studios
-                    </a>
-                    , and I'm looking for new opportunities.
+                    I specialize in developing scalable web services. I recently accepted an offer from{" "}
+                    <a className="link" href="https://goodleap.com/">
+                      GoodLeap
+                    </a>{" "}
+                    to help accelerate the transition to sustainable energy use.
                   </p>
                 </div>
               );

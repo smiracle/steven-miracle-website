@@ -3,10 +3,10 @@
     "jobtitle": "Software Engineer",
     "companyUrl": "https://www.pixelberrystudios.com",
     "company": "Pixelberry Studios",
-    "time": "Sep 2022 - Present",
+    "time": "Sep 2022 - Mar 2024",
     "bullets": [
       "Pioneered a flagship web app built with React, TypeScript and AWS cloud services that drove company revenue and customer experience.",
-      "Developed Express and GraphQL APIs that improved modularity and often reduced load times by 1+ second.",
+      "Developed RESTful and GraphQL APIs that improved modularity and often reduced load times by 1+ second.",
       "Implemented new features such as user revenue visualization using libraries like Redux and Recharts, resulting in 10-40% more user retention.",
       "Spearheaded the integration of Datadog web analytics with cloud-based systems and front end user interactions that led to better team decisions.",
       "Innovated feature flag management using caching in AWS Lambdas, Redux, and remote APIs, significantly improving system stability.",
